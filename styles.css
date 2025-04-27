@@ -89,6 +89,21 @@ footer {
   background-color: #ece3d3; /* Subtle footer contrasting background */
 }
 
-footer a {
-  color: #6c567b;
+/* Styles for individual story pages */
+article {
+  max-width: 800px; /* Set a maximum width for the story content */
+  margin: 0 auto; /* Center the content horizontally on the page */
+  padding: 20px; /* Add padding to give space between text and screen edges */
+  text-align: left; /* Keep the text left-aligned for readability (or `center` if desired) */
+  line-height: 1.8;
+  background-color: #fff; /* Optional: White background for contrast */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for a card effect */
+  font-size: 1.1em; /* Slightly larger font for improved readability */
+  color: #333; /* Ensure text is a readable dark gray */
+}
+
+/* Optional styling for headings inside article */
+article h1, article p {
+  text-align: center; /* Center the title/subtitle if you like */
 }
