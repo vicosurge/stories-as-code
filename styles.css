@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif; /* Elegant serif font for stories */
+  background-color: #f6f1eb; /* Light, paper-like background */
+  color: #333; /* Dark gray text for readability */
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none; /* Remove default underlines */
+  color: #6c567b; /* Soft purple that feels inviting */
+}
+
+a:hover {
+  color: #492d54; /* Darker shade for hover effect */
+}
+
+/* Navbar Styling */
+header {
+  background-color: #492d54; /* Dark purple for a bold header */
+  color: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+header nav {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+header nav a {
+  margin-right: 15px;
+  font-weight: bold;
+  color: #f6f1eb;
+}
+
+header nav a:hover {
+  color: #ffdd67; /* Highlight link on hover with gold */
+}
+
+/* Main Content Area */
+main {
+  max-width: 800px;
+  margin: 30px auto; /* Center content */
+  padding: 20px;
+  background: #fff; /* White card for readability */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Soft edges */
+}
+
+/* Short Story Cards (Homepage) */
+.short-story-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-left: 5px solid #6c567b; /* Colorful accent */
+  background: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 5px;
+}
+
+.short-story-card:hover {
+  transform: translateY(-5px); /* "Lift" effect on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.short-story-card h2 {
+  margin: 0 0 10px;
+}
+
+.short-story-card p {
+  margin: 0;
+  color: #555;
+  font-size: 0.9em;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #777;
+  background-color: #ece3d3; /* Subtle footer contrasting background */
+}
+
+footer a {
+  color: #6c567b;
+}
