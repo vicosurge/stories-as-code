@@ -53,7 +53,6 @@ jobs:
           hugo -s stories/ \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --verbose
       - name: Debug - Check build output
         run: |
           echo "Build completed. Checking public directory:"
@@ -61,7 +60,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./stories/public
 
   deploy:
     environment:
