@@ -12,7 +12,7 @@ ShowWordCount = true
 ShowToc = true
 
   [params.label]
-    text = "Your Site Name"
+    text = "Digimente - A mind forever voyaging"
     icon = "/images/digimente.png"
     iconHeight = 35
 
