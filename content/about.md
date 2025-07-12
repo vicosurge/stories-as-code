@@ -1,1 +1,1 @@
-This is the website of the Digimente
+This is the website for the Digimente, a mind forever voyaging.
