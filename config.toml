@@ -13,7 +13,7 @@ ShowToc = true
 
   [params.label]
     text = "Digimente - A mind forever voyaging"
-    icon = "/images/digimente.png"
+    icon = "/stories-as-code/images/digimente.png"
     iconHeight = 35
 
 [[menu.main]]
