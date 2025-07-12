@@ -50,7 +50,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo -s stories/ \
+          hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
       - name: Debug - Check build output
@@ -60,7 +60,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./stories/public
+          path: ./public
 
   deploy:
     environment:
