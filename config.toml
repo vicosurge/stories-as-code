@@ -11,6 +11,11 @@ ShowCodeCopyButtons = true
 ShowWordCount = true
 ShowToc = true
 
+  [params.label]
+    text = "Your Site Name"
+    icon = "/images/digimente.png"
+    iconHeight = 35
+
 [[menu.main]]
 identifier = 'stories'
 name = 'Stories'
