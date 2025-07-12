@@ -5,6 +5,8 @@ keywords: [solarpunk, near-future, short story]
 abstract: Life has somewhat ended, but it continues in new Tijuana
 identifier: {6c33b06c-e8a4-42ba-ac02-11df593f1ad2}
 timestamp: 2023-03-23 12:54:44
+date: 2023-03-23
+draft: false
 ---
 
 # Solarpunk - A story of the new ovens of California
