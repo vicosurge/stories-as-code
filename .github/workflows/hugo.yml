@@ -39,14 +39,25 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Debug - List files
+        run: |
+          echo "Current directory contents:"
+          ls -la
+          echo "Config file:"
+          cat config.yaml || cat config.toml || echo "No config file found"
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo -s stories/ \
+          hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --verbose
+      - name: Debug - Check build output
+        run: |
+          echo "Build completed. Checking public directory:"
+          ls -la public/ || echo "Public directory not found"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
