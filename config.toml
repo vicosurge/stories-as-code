@@ -16,6 +16,9 @@ ShowToc = true
     icon = "/stories-as-code/images/digimente.png"
     iconHeight = 35
 
+  [params.assets]
+    customCSS = ["/stories-as-code/css/custom.css"]
+
 [[menu.main]]
 identifier = 'stories'
 name = 'Stories'
