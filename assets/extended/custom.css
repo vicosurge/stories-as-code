@@ -1,0 +1,30 @@
+/* Custom background color */
+:root {
+    --main-bg: #19252c;
+    --content-bg: #1f2d36; /* Slightly lighter for content areas */
+}
+
+/* Dark mode (same colors) */
+[data-theme="dark"] {
+    --main-bg: #19252c;
+    --content-bg: #1f2d36;
+}
+
+/* Apply the colors */
+body {
+    background-color: var(--main-bg) !important;
+}
+
+.main, .post-content, .post-single {
+    background-color: var(--content-bg) !important;
+}
+
+/* Optional: Adjust text contrast for readability */
+.post-content, .post-single {
+    color: #e0e0e0;
+}
+
+/* Optional: Adjust links for better contrast */
+.post-content a {
+    color: #7dd3fc;
+}
