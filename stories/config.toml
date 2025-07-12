@@ -1,0 +1,23 @@
+baseURL: 'https://vicosurge.github.io/stories-as-code'
+languageCode: 'en-us'
+title: 'Test Story Site'
+theme: 'PaperMod'
+
+params:
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowToc: true
+  
+menu:
+  main:
+    - identifier: stories
+      name: Stories
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
