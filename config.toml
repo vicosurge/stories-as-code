@@ -1,44 +1,7 @@
 baseURL = 'https://vicosurge.github.io/stories-as-code'
 languageCode = 'en-us'
 title = 'Stories Site'
-theme = 'PaperMod'
+theme = 'blowfish'
 
-[params]
-ShowReadingTime = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-ShowWordCount = true
-ShowToc = true
-
-  [params.label]
-    text = "Digimente - A mind forever voyaging"
-    icon = "/stories-as-code/images/digimente.png"
-    iconHeight = 35
-
-  [params.assets]
-    customCSS = ["/stories-as-code/css/custom.css"]
-
-[[menu.main]]
-identifier = 'stories'
-name = 'Stories'
-url = '/posts/'
-weight = 10
-
-[[menu.main]]
-identifier = 'blog'
-name = "Blog"
-url = "/blog/"
-weight = 20
-
-[[menu.main]]
-identifier = 'about'
-name = 'About'
-url = '/about/'
-weight = 30
-
-[taxonomies]
-  story-tag = "story-tags"
-  story-category = "story-categories"
-  blog-tag = "blog-tags"
-  blog-category = "blog-categories"
+[homepage]
+layout = "profile"
