@@ -1,13 +1,39 @@
-/* Custom background color */
+/* Custom background color for dark mode (default) */
 :root {
     --main-bg: #19252c;
-    --content-bg: #1f2d36; /* Slightly lighter for content areas */
+    --content-bg: #1f2d36;
+    --text-color: #e0e0e0;
+    --link-color: #7dd3fc;
 }
 
-/* Dark mode (same colors) */
-[data-theme="dark"] {
-    --main-bg: #19252c;
-    --content-bg: #1f2d36;
+/* Light mode - try multiple possible selectors PaperMod might use */
+@media (prefers-color-scheme: light) {
+    :root {
+        --main-bg: #ffffff;
+        --content-bg: #f8f9fa;
+        --text-color: #333333;
+        --link-color: #0066cc;
+    }
+}
+
+/* Alternative light mode selectors */
+body.light-mode,
+html.light-mode,
+.light-mode {
+    --main-bg: #ffffff !important;
+    --content-bg: #f8f9fa !important;
+    --text-color: #333333 !important;
+    --link-color: #0066cc !important;
+}
+
+/* Alternative dark mode selectors */
+body.dark-mode,
+html.dark-mode,
+.dark-mode {
+    --main-bg: #19252c !important;
+    --content-bg: #1f2d36 !important;
+    --text-color: #e0e0e0 !important;
+    --link-color: #7dd3fc !important;
 }
 
 /* Apply the colors */
@@ -19,12 +45,52 @@ body {
     background-color: var(--content-bg) !important;
 }
 
-/* Optional: Adjust text contrast for readability */
+/* Adjust text contrast for readability in both modes */
 .post-content, .post-single {
-    color: #e0e0e0;
+    color: var(--text-color) !important;
 }
 
-/* Optional: Adjust links for better contrast */
+/* Adjust links for better contrast in both modes */
 .post-content a {
-    color: #7dd3fc;
+    color: var(--link-color) !important;
+}
+
+/* Headers */
+.post-content h1, .post-content h2, .post-content h3, 
+.post-content h4, .post-content h5, .post-content h6 {
+    color: var(--text-color) !important;
+}
+
+/* Code blocks */
+.post-content code {
+    background-color: var(--content-bg) !important;
+    color: var(--text-color) !important;
+}
+
+/* Fix blinding white elements */
+.post-content blockquote, blockquote {
+    background-color: var(--content-bg) !important;
+    border-left-color: #555 !important;
+}
+
+/* Fix white boxes/cards */
+.post-entry, .entry-content, .post-header {
+    background-color: var(--content-bg) !important;
+}
+
+/* Fix table of contents, title, and menu containers */
+.toc, .post-title, .post-meta, .post-header, .header, 
+#menu, .menu-content, .toc-container {
+    background-color: var(--main-bg) !important;
+    color: var(--text-color) !important;
+}
+
+/* Fix navigation */
+.nav, .menu, .breadcrumbs {
+    background-color: var(--content-bg) !important;
+}
+
+/* Fix any remaining white containers */
+.first-entry, .post-footer, .paginav {
+    background-color: var(--content-bg) !important;
 }
