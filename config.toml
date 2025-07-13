@@ -4,4 +4,4 @@ title = 'Stories Site'
 theme = 'blowfish'
 
 [homepage]
-layout = "profile"
+layout = "page"
