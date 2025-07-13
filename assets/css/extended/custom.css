@@ -87,3 +87,34 @@ body[data-theme="dark"] .menu,
 body[data-theme="dark"] .breadcrumbs {
     background-color: var(--content-bg) !important;
 }
+
+/* Fix table of contents, title, and menu containers in dark mode */
+[data-theme="dark"] .toc,
+[data-theme="dark"] .post-title,
+[data-theme="dark"] .post-meta,
+[data-theme="dark"] .post-header,
+[data-theme="dark"] .header,
+[data-theme="dark"] #menu,
+[data-theme="dark"] .menu-content,
+[data-theme="dark"] .toc-container,
+body[data-theme="dark"] .toc,
+body[data-theme="dark"] .post-title,
+body[data-theme="dark"] .post-meta,
+body[data-theme="dark"] .post-header,
+body[data-theme="dark"] .header,
+body[data-theme="dark"] #menu,
+body[data-theme="dark"] .menu-content,
+body[data-theme="dark"] .toc-container {
+    background-color: var(--main-bg) !important;
+    color: var(--text-color) !important;
+}
+
+/* Fix any remaining white containers in dark mode */
+[data-theme="dark"] .first-entry,
+[data-theme="dark"] .post-footer,
+[data-theme="dark"] .paginav,
+body[data-theme="dark"] .first-entry,
+body[data-theme="dark"] .post-footer,
+body[data-theme="dark"] .paginav {
+    background-color: var(--content-bg) !important;
+}
