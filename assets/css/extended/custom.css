@@ -1,11 +1,3 @@
-/* Default (Dark mode) colors - your original setup */
-:root {
-    --main-bg: #19252c;
-    --content-bg: #1f2d36;
-    --text-color: #e0e0e0;
-    --link-color: #7dd3fc;
-}
-
 /* Light mode colors - try multiple selectors for PaperMod */
 :root[data-theme="light"],
 [data-theme="light"],
