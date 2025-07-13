@@ -1,13 +1,17 @@
-/* Custom background color */
+/* Light mode colors */
 :root {
-    --main-bg: #19252c;
-    --content-bg: #1f2d36; /* Slightly lighter for content areas */
+    --main-bg: #f8f9fa;
+    --content-bg: #ffffff;
+    --text-color: #333333;
+    --link-color: #0066cc;
 }
 
-/* Dark mode (same colors) */
+/* Dark mode colors */
 [data-theme="dark"] {
     --main-bg: #19252c;
     --content-bg: #1f2d36;
+    --text-color: #e0e0e0;
+    --link-color: #7dd3fc;
 }
 
 /* Apply the colors */
@@ -19,12 +23,24 @@ body {
     background-color: var(--content-bg) !important;
 }
 
-/* Optional: Adjust text contrast for readability */
+/* Adjust text contrast for readability in both modes */
 .post-content, .post-single {
-    color: #e0e0e0;
+    color: var(--text-color) !important;
 }
 
-/* Optional: Adjust links for better contrast */
+/* Adjust links for better contrast in both modes */
 .post-content a {
-    color: #7dd3fc;
+    color: var(--link-color) !important;
+}
+
+/* Optional: Ensure proper contrast for headers */
+.post-content h1, .post-content h2, .post-content h3, 
+.post-content h4, .post-content h5, .post-content h6 {
+    color: var(--text-color) !important;
+}
+
+/* Optional: Ensure proper contrast for code blocks */
+.post-content code {
+    background-color: var(--content-bg) !important;
+    color: var(--text-color) !important;
 }
