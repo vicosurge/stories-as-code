@@ -14,7 +14,7 @@ title = "Blowfish"
 [params.author]
   name = "Vicente Manuel Muñoz Milchorena"
   email = "vicente@milchorena.com"
-  image = "images/vicosurge.jpeg"
+  image = "vicosurge.jpeg"
   headline = "A mind forever voyaging."
   bio = "Cybersecurity Professional | Writer and Editor | People Person"
   links = [
