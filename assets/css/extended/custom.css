@@ -1,23 +1,39 @@
-/* Light mode colors - try multiple selectors for PaperMod */
-:root[data-theme="light"],
-[data-theme="light"],
-body[data-theme="light"],
-.theme-light {
-    --main-bg: #ffffff;
-    --content-bg: #f8f9fa;
-    --text-color: #333333;
-    --link-color: #0066cc;
-}
-
-/* Dark mode colors - ensure they stay */
-:root[data-theme="dark"],
-[data-theme="dark"],
-body[data-theme="dark"],
-.theme-dark {
+/* Custom background color for dark mode (default) */
+:root {
     --main-bg: #19252c;
     --content-bg: #1f2d36;
     --text-color: #e0e0e0;
     --link-color: #7dd3fc;
+}
+
+/* Light mode - try multiple possible selectors PaperMod might use */
+@media (prefers-color-scheme: light) {
+    :root {
+        --main-bg: #ffffff;
+        --content-bg: #f8f9fa;
+        --text-color: #333333;
+        --link-color: #0066cc;
+    }
+}
+
+/* Alternative light mode selectors */
+body.light-mode,
+html.light-mode,
+.light-mode {
+    --main-bg: #ffffff !important;
+    --content-bg: #f8f9fa !important;
+    --text-color: #333333 !important;
+    --link-color: #0066cc !important;
+}
+
+/* Alternative dark mode selectors */
+body.dark-mode,
+html.dark-mode,
+.dark-mode {
+    --main-bg: #19252c !important;
+    --content-bg: #1f2d36 !important;
+    --text-color: #e0e0e0 !important;
+    --link-color: #7dd3fc !important;
 }
 
 /* Apply the colors */
@@ -39,74 +55,42 @@ body {
     color: var(--link-color) !important;
 }
 
-/* Optional: Ensure proper contrast for headers */
+/* Headers */
 .post-content h1, .post-content h2, .post-content h3, 
 .post-content h4, .post-content h5, .post-content h6 {
     color: var(--text-color) !important;
 }
 
-/* Optional: Ensure proper contrast for code blocks */
+/* Code blocks */
 .post-content code {
     background-color: var(--content-bg) !important;
     color: var(--text-color) !important;
 }
 
-/* Fix blinding white elements in dark mode */
-[data-theme="dark"] .post-content blockquote,
-[data-theme="dark"] blockquote,
-body[data-theme="dark"] .post-content blockquote,
-body[data-theme="dark"] blockquote {
+/* Fix blinding white elements */
+.post-content blockquote, blockquote {
     background-color: var(--content-bg) !important;
     border-left-color: #555 !important;
 }
 
-/* Fix white boxes/cards in dark mode */
-[data-theme="dark"] .post-entry,
-[data-theme="dark"] .entry-content,
-[data-theme="dark"] .post-header,
-body[data-theme="dark"] .post-entry,
-body[data-theme="dark"] .entry-content,
-body[data-theme="dark"] .post-header {
+/* Fix white boxes/cards */
+.post-entry, .entry-content, .post-header {
     background-color: var(--content-bg) !important;
 }
 
-/* Fix navigation and menu items in dark mode */
-[data-theme="dark"] .nav,
-[data-theme="dark"] .menu,
-[data-theme="dark"] .breadcrumbs,
-body[data-theme="dark"] .nav,
-body[data-theme="dark"] .menu,
-body[data-theme="dark"] .breadcrumbs {
-    background-color: var(--content-bg) !important;
-}
-
-/* Fix table of contents, title, and menu containers in dark mode */
-[data-theme="dark"] .toc,
-[data-theme="dark"] .post-title,
-[data-theme="dark"] .post-meta,
-[data-theme="dark"] .post-header,
-[data-theme="dark"] .header,
-[data-theme="dark"] #menu,
-[data-theme="dark"] .menu-content,
-[data-theme="dark"] .toc-container,
-body[data-theme="dark"] .toc,
-body[data-theme="dark"] .post-title,
-body[data-theme="dark"] .post-meta,
-body[data-theme="dark"] .post-header,
-body[data-theme="dark"] .header,
-body[data-theme="dark"] #menu,
-body[data-theme="dark"] .menu-content,
-body[data-theme="dark"] .toc-container {
+/* Fix table of contents, title, and menu containers */
+.toc, .post-title, .post-meta, .post-header, .header, 
+#menu, .menu-content, .toc-container {
     background-color: var(--main-bg) !important;
     color: var(--text-color) !important;
 }
 
-/* Fix any remaining white containers in dark mode */
-[data-theme="dark"] .first-entry,
-[data-theme="dark"] .post-footer,
-[data-theme="dark"] .paginav,
-body[data-theme="dark"] .first-entry,
-body[data-theme="dark"] .post-footer,
-body[data-theme="dark"] .paginav {
+/* Fix navigation */
+.nav, .menu, .breadcrumbs {
+    background-color: var(--content-bg) !important;
+}
+
+/* Fix any remaining white containers */
+.first-entry, .post-footer, .paginav {
     background-color: var(--content-bg) !important;
 }
