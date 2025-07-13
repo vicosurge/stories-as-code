@@ -11,8 +11,8 @@
 [data-theme="light"],
 body[data-theme="light"],
 .theme-light {
-    --main-bg: #f8f9fa;
-    --content-bg: #ffffff;
+    --main-bg: #ffffff;
+    --content-bg: #f8f9fa;
     --text-color: #333333;
     --link-color: #0066cc;
 }
@@ -57,4 +57,33 @@ body {
 .post-content code {
     background-color: var(--content-bg) !important;
     color: var(--text-color) !important;
+}
+
+/* Fix blinding white elements in dark mode */
+[data-theme="dark"] .post-content blockquote,
+[data-theme="dark"] blockquote,
+body[data-theme="dark"] .post-content blockquote,
+body[data-theme="dark"] blockquote {
+    background-color: var(--content-bg) !important;
+    border-left-color: #555 !important;
+}
+
+/* Fix white boxes/cards in dark mode */
+[data-theme="dark"] .post-entry,
+[data-theme="dark"] .entry-content,
+[data-theme="dark"] .post-header,
+body[data-theme="dark"] .post-entry,
+body[data-theme="dark"] .entry-content,
+body[data-theme="dark"] .post-header {
+    background-color: var(--content-bg) !important;
+}
+
+/* Fix navigation and menu items in dark mode */
+[data-theme="dark"] .nav,
+[data-theme="dark"] .menu,
+[data-theme="dark"] .breadcrumbs,
+body[data-theme="dark"] .nav,
+body[data-theme="dark"] .menu,
+body[data-theme="dark"] .breadcrumbs {
+    background-color: var(--content-bg) !important;
 }
