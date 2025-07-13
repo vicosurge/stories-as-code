@@ -8,7 +8,7 @@ title = "Digimente"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/digimente.png"
+  logo = "img/transparent_logo.png"
   description = "Digimente, a mind forever voyaging."
 
 [params.author]
