@@ -2,6 +2,7 @@
 title: Solarpunk Stories in New Tijuana
 author: Vicente Manuel Munoz Milchorena
 keywords: [solarpunk, near-future, short story]
+tags: ["solarpunk", "near-future", "short story", "english"]
 abstract: Life has somewhat ended, but it continues in new Tijuana
 identifier: {6c33b06c-e8a4-42ba-ac02-11df593f1ad2}
 timestamp: 2023-03-23 12:54:44

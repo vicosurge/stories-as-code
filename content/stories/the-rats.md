@@ -2,7 +2,7 @@
 title: The Rats
 author: Vicente Manuel Munoz Milchorena
 keywords: [horror, middle ages, short story]
-tags: ["horror", "middle ages", "short story"]
+tags: ["horror", "middle ages", "short story", "english"]
 abstract: In the old streets of Jerusalem, one does not travel safely at night.
 date: 2018-09-19
 draft: false

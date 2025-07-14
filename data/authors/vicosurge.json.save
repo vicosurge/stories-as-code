@@ -1,0 +1,9 @@
+{
+  "name": "Nuno Coração",
+  "image": "img/nuno_avatar.jpg",
+  "bio": "Author",
+  "social": [
+    { "linkedin": "https://linkedin.com/in/vicente-milchorena" },
+    { "github": "https://github.com/vicosurge" }
+  ]
+}
