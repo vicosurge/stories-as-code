@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main # or master, depending on your repo
   repo: vicosurge/stories-as-code
   site_domain: digimente.xyz
