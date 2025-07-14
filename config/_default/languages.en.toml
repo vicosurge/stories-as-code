@@ -17,6 +17,7 @@ title = "Digimente"
   image = "img/vicosurge.jpeg"
   headline = "A mind forever voyaging."
   bio = "Cybersecurity Professional | Writer and Editor | People Person"
+  website = "https://vicente.milchorena.com"
   links = [
     { linkedin = "https://www.linkedin.com/in/vicente-milchorena/" },
     { github = "https://github.com/vicosurge" },
