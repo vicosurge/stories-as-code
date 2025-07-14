@@ -3,7 +3,7 @@ title: "Cruce"
 date: 2013-01-12 00:00:00 -0800
 modified: 2025-07-11 20:53:00 -0800
 tags: ["Tijuana", "memories", "español"]
-authors: Vicente Manuel Muñoz Milchorena
+author: Vicente Manuel Muñoz Milchorena
 ---
 Caminando por uno de los bulevares de la ciudad me decidí a cruzar hacia el 
 otro lado, pero mi intento era impedido por la cantidad de carros que pasaban 

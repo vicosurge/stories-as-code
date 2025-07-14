@@ -3,7 +3,7 @@ title: "Back during the recession in San Diego"
 date: 2018-05-16 05:26:55 -0800
 modified: 2025-07-11 20:46:00 -0800
 tags: ["San Diego", "memories", "recession", "english"]
-authors: Vicente Manuel Muñoz Milchorena
+author: Vicente Manuel Muñoz Milchorena
 ---
 Back when the economic recession started, I had just gotten a job, mere chance, 
 doing IT Desktop Support for a large medical manufacturer (not sure if the 

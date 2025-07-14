@@ -3,7 +3,7 @@ title: "Compiling NXLog CE 2.10.2150 and the dreaded -lcrypto error"
 date: 2020-09-04 21:07:00 -0800
 modified: 2024-12-13 21:26:00 -0800
 tags: ["NXLog", "Community Edition", "IT", "Cybersecurity", "english"]
-authors: Vicente Manuel Muñoz Milchorena
+author: Vicente Manuel Muñoz Milchorena
 ---
 
 Just two days was the time I had to mess around with to figure out what the 
