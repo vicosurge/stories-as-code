@@ -2,6 +2,8 @@ backend:
   name: github
   branch: main # or master, depending on your repo
   repo: vicosurge/stories-as-code
+  auth_type: implicit
+  app_id: Ov23li1sThqQcMBdbcDG
 
 media_folder: static/img/uploads
 public_folder: /assets/img
