@@ -2,7 +2,8 @@ backend:
   name: github
   branch: main # or master, depending on your repo
   repo: vicosurge/stories-as-code
-  site_domain: digimente.xyz
+  base_url: 'https://digimente.xyz'
+  scope: 'repo'
 
 media_folder: static/img/uploads
 public_folder: /assets/img
