@@ -3,6 +3,7 @@
   "image": "img/vicosurge.jpg",
   "bio": "Author",
   "social": [
+    { "email": "mailto:digimente@milchorena.com" },
     { "linkedin": "https://linkedin.com/in/vicente-milchorena" },
     { "github": "https://github.com/vicosurge" }
   ]
