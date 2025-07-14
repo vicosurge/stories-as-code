@@ -2,7 +2,7 @@
 title: "¿Cuando llega el C-130? - La Diáspora Militar Estadounidense en Baja California"
 date: 2015-09-09 15:37:00 -0800
 modified: 2024-12-13 08:20:00 -0800
-tags: ["Tijuana", military", "investigación", "historia", "español"]
+tags: ["Tijuana", "military", "investigación", "historia", "español"]
 author: Vicente Manuel Muñoz Milchorena
 ---
 
