@@ -20,4 +20,5 @@ title = "Digimente"
   links = [
     { linkedin = "https://www.linkedin.com/in/vicente-milchorena/" },
     { github = "https://github.com/vicosurge" },
+    { website = "https://vicente.milchorena.com" },
   ]

@@ -21,11 +21,6 @@
   weight = 15
 
 [[main]]
-  name = "Users"
-  pageRef = "users"
-  weight = 90
-
-[[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/vicosurge"
@@ -40,8 +35,3 @@
    name = "Tags"
    pageRef = "tags"
    weight = 10
-
- [[footer]]
-   name = "Authors"
-   pageRef = "authors"
-   weight = 20
