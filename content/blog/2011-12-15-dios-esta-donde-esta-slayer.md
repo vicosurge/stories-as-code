@@ -25,7 +25,7 @@ Apocalipsis que le siguen muy de cerca, Jeff Hanneman y Kerry King en guitarra
 rítmica y principal, y Dave Lombardo el cual se convirtió en una de las 
 primeras ametralladoras humanas por los tiempos de 1986.
 
-![Tom Araya.jpg](https://digimente.xyz/blog/Tom Araya.jpg)
+![Tom Araya.jpg](https://digimente.xyz/blog/tom_araya.jpg)
 
 ¿Qué es Slayer?
 
