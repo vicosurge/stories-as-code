@@ -1,8 +1,11 @@
 ---
-title: "Dios esta donde este Slayer"
-date: 2011-12-15 00:00:00 -0800
-modified: 2025-07-13 20:50:00 -0800
-tags: ["slayer", "memories", "español"]
+title: Dios esta donde este Slayer
+date: '2011-12-15 00:00:00 -0800'
+modified: '2025-07-13 20:50:00 -0800'
+tags:
+  - slayer
+  - memories
+  - español
 author: Vicente Manuel Muñoz Milchorena
 ---
 Es una conclusión que parece algo vaga, pero es cierto, donde quiera que este 
@@ -21,6 +24,8 @@ martillo de guerra, Tom Araya, vocalista y bajista, y sus tres jinetes del
 Apocalipsis que le siguen muy de cerca, Jeff Hanneman y Kerry King en guitarra 
 rítmica y principal, y Dave Lombardo el cual se convirtió en una de las 
 primeras ametralladoras humanas por los tiempos de 1986.
+
+![Tom Araya](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FTom_Araya&psig=AOvVaw3YNCA4aalAtdP-I88Flrpk&ust=1752632370836000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLjrxcvmvY4DFQAAAAAdAAAAABAE)
 
 ¿Qué es Slayer?
 
