@@ -1,7 +1,14 @@
 baseURL = 'https://vicosurge.github.io/stories-as-code'
 languageCode = 'en-us'
-title = 'Stories Site'
+title = 'Digimente'
 theme = 'blowfish'
 
 [homepage]
-layout = "page"
+  layout = "page"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
