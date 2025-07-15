@@ -25,7 +25,7 @@ Apocalipsis que le siguen muy de cerca, Jeff Hanneman y Kerry King en guitarra
 rítmica y principal, y Dave Lombardo el cual se convirtió en una de las 
 primeras ametralladoras humanas por los tiempos de 1986.
 
-![Tom Araya.jpg](https://digimente.xyz/blog/tom_araya.jpg)
+![god_is_dead_bigotudo_is_dead.jpg](https:/digimente.xyz/blog/god_is_dead_bigotudo_is_dead.jpg)
 
 ¿Qué es Slayer?
 
@@ -130,5 +130,7 @@ cadenas físicas, mentales y espirituales, como hemos logrado ese grado sublime
 de perfección que solo él puede producir, le damos asco, y es por eso que nos 
 condena y susurra lenta y personalmente al oído de cada uno lo que ya todos 
 tenemos presente en nuestro corazón y mente …
+
+![Tom Araya.jpg](https://digimente.xyz/blog/tom_araya.jpg)
 
 Dios nos odia a todos.
