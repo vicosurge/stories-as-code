@@ -2,7 +2,7 @@
 title: "Death does not always mean change"
 date: 2018-12-25 00:00:00 -0800
 modified: 2025-07-14 23:01:00 -0800
-tags: ["Tijuana", "memories", "español"]
+tags: ["Tijuana", "memories", "english"]
 author: Vicente Manuel Muñoz Milchorena
 ---
 
