@@ -1,5 +1,5 @@
 ---
-title: Diario de Battista Andretti: Entrada del 27 de Diciembre de 2012. (All Flesh Must Be Eaten)
+title: "Diario de Battista Andretti: Entrada del 27 de Diciembre de 2012. (All Flesh Must Be Eaten)"
 author: Vicente Manuel Munoz Milchorena
 tags: ["zombie apocalypse", "Tijuana", "All Flesh Must Be Eaten", "RPG", "chronicle", "español"]
 date: 2012-12-29
