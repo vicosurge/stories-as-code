@@ -1,6 +1,6 @@
 ---
 title: "Tech Men - The Machine That Growled"
-date: 2012-01-13
+date: 2008-05-24
 type: "short story"
 genre: ["techno-myth", "solarpunk", "post-apocalypse"]
 mood: "Satirical"
