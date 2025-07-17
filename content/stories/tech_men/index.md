@@ -1,5 +1,5 @@
 ---
-title: "Servo Padre: The Gospel of Silicon"
+title: "Tech Men - Servo Padre: The Gospel of Silicon"
 author: Vicente Manuel Munoz Milchorena
 keywords: ["techno-mysticism", "digital priesthood", "post-apocalyptic faith", "machine gospel", "Servo Padre"]
 tags: ["fiction", "Servo Padre", "dystopia", "technology", "myth"]
