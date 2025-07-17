@@ -1,8 +1,10 @@
 ---
-title: "Sueños: Septiembre 30"
-date: 2012-10-09 13:33:00 -0800
-modified: 2025-07-14 22:39:00 -0800
-tags: ["dreams", "español"]
+title: 'Sueños: Septiembre 30'
+date: '2012-10-09 13:33:00 -0800'
+modified: '2025-07-14 22:39:00 -0800'
+tags:
+  - dreams
+  - español
 author: Vicente Manuel Muñoz Milchorena
 ---
 Septiembre 30:
@@ -15,4 +17,4 @@ recibidos pero no parecen alterar mucho su forma, solo se vuelve abstracto,
 como una clase de tallo chueco el cual parece estar formado de la masa del 
 bebe la cual también se ha vuelto un poco sanguinolenta, es como un 
 tentáculo, una rama, sus colores siguen siendo oscuros, el bebe se transforma 
-en una rosa, roja, totalmente madura, su hermoso color y forma impactan... 
+en una rosa, roja, totalmente madura, su hermoso color y forma impactan...
