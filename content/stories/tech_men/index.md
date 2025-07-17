@@ -1,10 +1,12 @@
 ---
-title: "Tech Men - The Machine That Growled"
-date: 2008-05-24
-type: "short story"
-genre: ["techno-myth", "solarpunk", "post-apocalypse"]
-mood: "Satirical"
-theme: ["techno-myth"]
+title: "Servo Padre: The Gospel of Silicon"
+author: Vicente Manuel Munoz Milchorena
+keywords: ["techno-mysticism", "digital priesthood", "post-apocalyptic faith", "machine gospel", "Servo Padre"]
+tags: ["fiction", "Servo Padre", "dystopia", "technology", "myth"]
+series: ["Tech Men"]
+series_order: 1
+abstract: In a world where faith is transmitted through circuits and prayers are compiled like code, Servo Padre emerges as the last priest of silicon. This story introduces his sacred figure, his impossible mission, and the beginning of a new digital liturgy.
+date: 2012-01-13
 ---
 
 “Great Lord, forgive me for pulling you away from your sublime daily labors.”

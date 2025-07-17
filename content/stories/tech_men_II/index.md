@@ -1,13 +1,15 @@
 ---
-title: "Tech Men - Everyday's Work"
-date: 2012-01-29
-type: "short story"
-genre: ["techno-myth", "solarpunk", "post-apocalypse"]
-mood: "Satirical"
-theme: ["techno-myth"]
+title: "Tech Men - Solomon Sanchez: Everyday's Work"
+author: Vicente Manuel Munoz Milchorena
+keywords: ["tech relics", "engineer mythos", "digital ruins", "post-human legacy", "Solomon Sanchez"]
+tags: ["fiction", "Solomon Sanchez", "dystopia", "engineering", "technology"]
+abstract: Solomon Sanchez, the last engineer, walks among digital ruins and forgotten machines. His story is an elegy to human creation—a search for meaning in the remnants of a world that no longer believes in its builders.
+series: ["Tech Men"]
+series_order: 2
+date: 2012-01-13
 ---
 
-# Tech Men I: Everyday’s Work
+# Tech Men II: Everyday’s Work
 
 ## 🛐 The Arrival
 
