@@ -4,7 +4,7 @@ author: Vicente Manuel Munoz Milchorena
 keywords: ["Siddhartha", "Hermann Hesse", "Budismo", "viaje espiritual", "filosofía oriental", "reflexión literaria"]
 tags: ["ensayo", "espiritualidad", "literatura", "Hesse", "Budismo", "español"]
 abstract: Una reflexión personal sobre *Siddhartha* de Hermann Hesse, explorando el viaje espiritual y filosófico de su protagonista. Publicado originalmente hace más de una década, este texto sigue siendo uno de los artículos más visitados del archivo del autor.
-date: 2012-01-13
+date: 2012-01-21
 series: "Reflexiones Literarias"
 series_order: 1
 ---
