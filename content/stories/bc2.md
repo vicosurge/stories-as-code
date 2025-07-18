@@ -1,6 +1,6 @@
 ---
-title: "Border Crossing II: Revenge of the Stick"
-date: 2012-01-13
+title: "Border Crossing II"
+date: 2006-01-02
 type: "fiction"
 genre: ["action", "satire", "meta-fiction", "absurdist", "road story"]
 description: Vico Surge wakes up to a broken alarm, spoiled milk, and urgent airport duties—soon escalating into cassette tape chaos, beef jerky diplomacy, and a highway gunfight with a mysterious Lincoln driver. Skeller returns, Emerson arrives, and the dune buggy earns its wings.
