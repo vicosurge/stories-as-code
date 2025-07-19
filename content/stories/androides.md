@@ -11,7 +11,7 @@ description: "Fragmento narrativo ambientado en un mundo decadente y privatizado
 entry="REGISTRO-079X"
 title="Operación en BARRA // [SOC-COR] Transcripción Interna"
 subject="Michael79, DPhelps12, PChang107"
-location="BARRA-32D, Sector Ciudad MX"
+location="BARRA-32D, Sector Ciudad BC-TJ"
 timestamp="2112.07.13-T21:44"
 access="DELTA"
 threat="Elevada (Inestable)"
@@ -50,3 +50,56 @@ Sintió el ardor descender, luego regresar.
 {{< fnote index="2" >}}El precio del alcohol está ligado a los indicadores de 
 volatilidad nocturna. A medida que los reservorios sintéticos se agotan, los 
 multiplicadores de tarifa aumentan exponencialmente.{{< /fnote >}}
+
+---
+
+{{< serial-header
+entry="REGISTRO-079B"
+title="Protocolo de Consumo BARRA // [SOC-COR] Análisis Situacional"
+subject="Michael79, DPhelps12, PChang107"
+location="BARRA-32D, Nivel Subterráneo"
+timestamp="2112.07.13-T22:12"
+access="DELTA"
+threat="Moderada (Eufórica)"
+>}}
+
+La mesa brilló tenuemente mientras Michael79 seleccionaba una bebida—sabía que 
+no importaba cuál. Todas compartían la misma base alcohólica, rebajada con 
+agua y aromatizantes sintéticos. El líquido marrón descendía desde un tubo 
+oculto, emergiendo en un vaso transparente que parecía más clínico que 
+recreativo.
+{{< fnote index="3" >}}El sistema de dispensación BARRA está regulado por
+protocolos de vigilancia médica. La ingestión queda registrada y vinculada 
+al perfil metabólico del cliente.{{< /fnote >}}
+
+El sistema dedujo el costo automáticamente, retirándolo de su cuenta de la 
+Compañía. Mientras se acomodaba en la pequeña silla de metal, Michael79 pensó 
+en **modificar su sistema digestivo**. El dolor del líquido subiendo y bajando 
+por la garganta lo había convencido. Pero los costos eran insalvables.
+{{< fnote index="4" >}}La adaptación digestiva total cuesta hasta la mitad del 
+salario anual de los empleados SOC-COR. La Compañía no cubre modificaciones 
+que no estén directamente ligadas al rendimiento operativo.{{< /fnote >}}
+
+DPhelps12 brindó. Su mandíbula metálica vibró ligeramente al moverla. La 
+música de fondo—mezcla de ritmos retro y zumbidos corticales—volvía imposible 
+distinguir emociones por la voz. PChang107 escribió un mensaje que flotó entre ellos:
+
+> `MSG [PCHANG107]: LOLOL GRATZ GG`
+
+—No es gran cosa, pero igual se agradece—dijo Michael79, empujando su vaso lejos. 
+Temía que el impulso de beber por inercia lo destruyera desde adentro.
+
+—¿No que el Sargento tenía una historia para hoy?—preguntó, ya más cómodo.
+
+—¿La de la prostituta que tiramos hoy temprano?—respondió DPhelps12.
+
+Michael79 asintió.
+
+—Esa misma. Mencionó que era cómica pero ESanders30 y SJackson92 no le hallaron 
+gracia. Me dio curiosidad.
+
+DPhelps12 se recostó, brazos detrás de la cabeza, cables sobresaliendo como 
+serpientes metálicas. Tronó los dedos, como si activara un archivo almacenado 
+en su memoria de combate.
+
+> `MSG [PCHANG107]: STORY KEK`
