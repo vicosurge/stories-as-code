@@ -1,0 +1,30 @@
+.serial-header {
+  background-color: #0f0f0f;
+  padding: 1em;
+  border-left: 4px solid #ff0070;
+  font-family: monospace;
+  color: #f0f0f0;
+}
+.serial-header .meta {
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.fnote {
+  display: block;
+  font-size: 0.8em;
+  color: #77c0ff;
+  margin-top: 0.5em;
+  font-family: monospace;
+}
+
+.redacted {
+  background-color: #000;
+  color: #000;
+  text-decoration: line-through;
+  cursor: help;
+}
+.redacted::after {
+  content: " █████████ ";
+  color: #ff0070;
+}

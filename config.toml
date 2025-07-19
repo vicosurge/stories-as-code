@@ -12,3 +12,5 @@ theme = 'blowfish'
   author = "authors"
   series = "series"
 
+[params.assets]
+css = ["css/main.scss"]
