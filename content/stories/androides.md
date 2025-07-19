@@ -1,3 +1,12 @@
+---
+title: "Androides y el mundo del Futuro"
+date: 2025-07-18T23:02:00-07:00
+draft: false
+tags: ["cyberpunk", "digimente", "androides"]
+categories: ["stories"]
+description: "Fragmento narrativo ambientado en un mundo decadente y privatizado, parte del universo Digimente."
+---
+
 {{< serial-header
 entry="ENTRY-019A"
 title="Reconvergence at BARRA // [SOC-COR] Internal Transcript"
