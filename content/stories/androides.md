@@ -58,3 +58,89 @@ A esto se le conoce como el **ciclo de Grimwald** y su compañía libre militar.
 La **memoria pública** era demasiado corta.
 
 {{< fnote index="5" >}}El "ciclo de Grimwald" es considerado como la génesis de las operaciones rotativas SOC-COR. Estudios sociopolíticos afirman que marcó el colapso de la noción de jurisdicción internacional en el sector privado.{{< /fnote >}}
+
+---
+
+## REGISTRO-079b
+
+{{< serial-header
+entry="REGISTRO-079B"
+title="Convergencia en BARRA // [SOC-COR] Encuentro de Unidad"
+subject="Michael79, DPhelps12, PChang107"
+location="BARRA-32D, Nivel Subterráneo"
+timestamp="2112.07.13-T21:44"
+access="DELTA"
+threat="Moderada (Convergente)"
+music="Retro siglo XXI + Europa del Este // Canal Cortical-23"
+crowd_density="Alta (Intercambio biotecnológico activo)"
+>}}
+
+Michael79 terminó su carrera. El vehículo se detuvo en la esquina más cercana y el costo fue deducido automáticamente de su cuenta de la Compañía.
+
+Avanzó unos metros por la atascada calle y entró al lugar llamado BARRA—o “-”. Los reductores de ruido se activaron de inmediato debido a los altos volúmenes de música. Un recuadro en su visor mostró una advertencia por nivel sonoro.
+
+{{< glitch-box >}}
+⚠️ ALERTA DE SONIDO — UMBRAL EXCEDIDO  
+Canal Cortical-23 detectado.  
+Respuesta del usuario: “No hay problema”
+{{< /glitch-box >}}
+
+Michael pasó entre carne y metal intercalado: ciudadanos, trabajadores de Corporaciones y Compañías, unos naturales, otros modificados casi hasta los dientes. Cables salían de ojos, mandíbulas y clavículas. El pin vibró y marcó dos figuras:
+
+- DPhelps12 con brazos de metal flexible, cables entrando a sus hombros
+- PChang107 con visor oscuro, mandíbula de metal, dientes inferiores expuestos
+
+Ambos con el uniforme de una pieza y botas negras, igual que Michael.
+
+—Pensamos que no llegabas, pide rápido que el mercado está a la alza—dijo DPhelps12. El sonido no fue mitigado—la configuración aceptaba audio de miembros de la Compañía.
+
+Michael acercó la mano derecha a la mesa. Sólo él pudo ver el menú de servicios, proyectado en su visor. Las bebidas tenían nombres rudos y extravagantes, pero eran todas lo mismo: sabores artificiales, alcohol etílico rebajado con agua.
+
+{{< fnote index="1" >}}El sistema de BARRA utiliza bebidas sintéticas estandarizadas. El nombre del producto se correlaciona con su categoría sociocultural más que con su composición.{{< /fnote >}}
+
+Lo aterrador no era el contenido, sino el **precio**, que subía minuto a minuto. Entre menos disponibilidad de ingredientes, mayor era el precio—incrementado además por impuestos y tarifas nocturnas. Los clientes no se detenían. Se les descontaba de sus siguientes tres pagos con intereses moderados.
+
+> “Por todos paga uno” —leyenda informal del sistema BARRA
+
+{{< fnote index="2" >}}El sistema de pago de BARRA incorpora microcréditos automáticos. Cada consumo genera una deuda distribuida entre ciclos salariales futuros.{{< /fnote >}}
+
+Michael pidió una bebida cualquiera. El cobro fue inmediato. El centro de la mesa se abrió y emergió un vaso de plástico transparente, con líquido ligeramente café y olor cercano al alcohol de 96 grados.
+
+{{< glitch-box >}}
+[TRANSACCIÓN]  
+Producto: “VIOLENT MACHINERY (EDICIÓN HÚMEDA)”  
+ID Cliente: MICHAEL79  
+Monto: 9.84 MXCR + Tarifa Nocturna (1.2x)  
+Status: Aprobado  
+Emitido: Tubo Nº4 // VASO C12-Café  
+{{< /glitch-box >}}
+
+Ya con bebida en mano, los tres alzaron sus vasos y tomaron hondo. Michael sintió el ardor bajar de la garganta al estómago, y luego volver. Pensó seriamente en adaptar su sistema digestivo a uno artificial, pero los costos eran prohibitivos. La Compañía no cubriría ese gasto.
+
+{{< fnote index="3" >}}El sistema digestivo artificial SOC-COR cuesta hasta 55% del salario anual. No está cubierto bajo modificaciones permitidas por descripción de trabajo.{{< /fnote >}}
+
+{{< voz sender="DPHELPS12" >}}A tu salud y a tu aumento de salario.{{< /voz >}}
+
+Michael no sabía si las contracciones involuntarias del rostro de DPhelps12 eran trauma residual o efecto del alcohol.
+
+{{< msg sender="PCHANG107" >}}LOLOL GRATZ GG{{< /msg >}}
+
+Michael respondió:
+
+—No es gran cosa pero de igual manera les agradezco. Sargento, me había comentado que tenía una historia que contar para celebrar el día.
+
+—¿De qué hablas?—preguntó DPhelps12, pensativo.
+
+{{< msg sender="PCHANG107" >}}STORY KEK{{< /msg >}}
+
+DPhelps12 tronó los dedos. Se acomodó en la silla.
+
+—Gracias PChang107, ya sé a qué historia te refieres, ¿la de la prostituta que fuimos a tirar hoy temprano, cierto?
+
+Michael79 asintió.
+
+—Esa misma, comentó que tenía una historia cómica al respecto, a lo cual ESanders30 y SJackson92 no le encontraron mucha gracia, por lo que me quedé intrigado a lo que se refería.
+
+DPhelps12 suspiró y colocó ambos brazos detrás de la cabeza. Cables visibles. Su mirada comenzaba a cambiar.
+
+> Continuará en: `REGISTRO-079C`
