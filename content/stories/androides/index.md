@@ -81,9 +81,7 @@ Avanzó unos metros por la atascada calle y entró al lugar llamado BARRA—o �
 
 {{< glitch-box >}}
 ⚠️ ALERTA DE SONIDO — UMBRAL EXCEDIDO  
-
 Canal Cortical-23 detectado.  
-
 Respuesta del usuario: “No hay problema”
 {{< /glitch-box >}}
 
