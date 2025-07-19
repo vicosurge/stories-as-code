@@ -1,3 +1,4 @@
 <div class="glitch-box">
-  {{ .Inner }}
+  {{ replace .Inner "\n" "<br>" | safeHTML }}
 </div>
+
