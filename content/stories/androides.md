@@ -7,99 +7,54 @@ categories: ["stories"]
 description: "Fragmento narrativo ambientado en un mundo decadente y privatizado, parte del universo Digimente."
 ---
 
-{{< serial-header
-entry="REGISTRO-079X"
-title="Operación en BARRA // [SOC-COR] Transcripción Interna"
-subject="Michael79, DPhelps12, PChang107"
-location="BARRA-32D, Sector Ciudad BC-TJ"
-timestamp="2112.07.13-T21:44"
-access="DELTA"
-threat="Elevada (Inestable)"
->}}
-
-Michael79 empujó la puerta blindada del edificio de treinta pisos, bajando por 
-las calles inferiores hasta nivel suelo. Las otras salidas—una a diez pisos, 
-otra a veinte—no eran viables.[^1] Se dirigió hacia una esquina donde rentaban 
-vehículos automatizados. El suyo era una rueda metálica con asiento central, 
-diseñado para tráfico vertical y horizontal. Ingresó el código de alerta como 
-miembro de la fuerza de seguridad, atravesando intersecciones con impunidad.
-{{< fnote index="1" >}}Los permisos para tránsito vertical solo se otorgan a 
-facciones de seguridad municipal y cuerpos diplomáticos. El cruce no 
-autorizado implica multas de hasta 1000 MXCR.{{< /fnote >}}
-
-La ciudad respondió como si supiera de su prisa. El sistema bloqueó carriles, 
-desvió flujos, y redujo semáforos. Nadie podía oponerse sin reprogramar los 
-subcanales manualmente—a lo que ningún civil tenía acceso.
-{{< redact >}}Protocol Class-3 Override authorized for this traversal. 
-Identity hash: [REDACTED].{{< /redact >}}
-
-Al llegar a BARRA, los reductores de sonido se activaron. Música retro del 
-siglo XXI y ruido cortical se filtraban incluso por el visor. El pin de 
-ubicación vibró en su palma. Avanzó entre carne, cable, y polímero. A su 
-vista, dos figuras esperaban: DPhelps12, cables entrando por los hombros, 
-brazos con recubrimiento flexible; y PChang107, mandíbula metálica, visores 
-oscuros. Ambos con uniforme de pieza completa y botas negras, al igual que él.
-
-> “Pensamos que no llegabas,” dijo DPhelps12. “Pide rápido, el mercado está a la alza.”[^2]
-
-Michael79 colocó su mano sobre la mesa. Un menú holográfico apareció sólo para 
-él. Las bebidas eran nombres brutales con sabores sintéticos indistinguibles. 
-El vaso emergió de un tubo central—transparente, marrón, ardiente. Bebió. 
-Sintió el ardor descender, luego regresar.
-
-{{< fnote index="2" >}}El precio del alcohol está ligado a los indicadores de 
-volatilidad nocturna. A medida que los reservorios sintéticos se agotan, los 
-multiplicadores de tarifa aumentan exponencialmente.{{< /fnote >}}
-
----
+## REGISTRO-079A
 
 {{< serial-header
-entry="REGISTRO-079B"
-title="Protocolo de Consumo BARRA // [SOC-COR] Análisis Situacional"
-subject="Michael79, DPhelps12, PChang107"
-location="BARRA-32D, Nivel Subterráneo"
-timestamp="2112.07.13-T22:12"
+entry="REGISTRO-079A"
+title="Inicio de desplazamiento // [SOC-COR] Preparación de Operativo"
+subject="Michael79"
+location="Comisaría de Zona 12"
+timestamp="2112.07.13-T21:16"
 access="DELTA"
-threat="Moderada (Eufórica)"
+threat="Latente (Pre-misión)"
 >}}
 
-La mesa brilló tenuemente mientras Michael79 seleccionaba una bebida—sabía que 
-no importaba cuál. Todas compartían la misma base alcohólica, rebajada con 
-agua y aromatizantes sintéticos. El líquido marrón descendía desde un tubo 
-oculto, emergiendo en un vaso transparente que parecía más clínico que 
-recreativo.
-{{< fnote index="3" >}}El sistema de dispensación BARRA está regulado por
-protocolos de vigilancia médica. La ingestión queda registrada y vinculada 
-al perfil metabólico del cliente.{{< /fnote >}}
+{{< msg sender="DPHELPS12" >}}Te ha mandado el pin de su locación. Una maraña de calles, vías y métodos de transporte al igual que la situación del tráfico local aparecieron en la parte interior del visor que portaba Michael79.{{< /msg >}}
 
-El sistema dedujo el costo automáticamente, retirándolo de su cuenta de la 
-Compañía. Mientras se acomodaba en la pequeña silla de metal, Michael79 pensó 
-en **modificar su sistema digestivo**. El dolor del líquido subiendo y bajando 
-por la garganta lo había convencido. Pero los costos eran insalvables.
-{{< fnote index="4" >}}La adaptación digestiva total cuesta hasta la mitad del 
-salario anual de los empleados SOC-COR. La Compañía no cubre modificaciones 
-que no estén directamente ligadas al rendimiento operativo.{{< /fnote >}}
+{{< msg sender="DPHELPS12" >}}Estoy aquí con PChang107, date prisa por que ya lleva suficiente alcohol como para no poder comunicarse con sus cuerdas vocales.{{< /msg >}}
 
-DPhelps12 brindó. Su mandíbula metálica vibró ligeramente al moverla. La 
-música de fondo—mezcla de ritmos retro y zumbidos corticales—volvía imposible 
-distinguir emociones por la voz. PChang107 escribió un mensaje que flotó entre ellos:
+El mensaje venía del Sargento III Comisionado Alterno DPhelps12.
 
-> `MSG [PCHANG107]: LOLOL GRATZ GG`
+—Casi nunca usa sus cuerdas vocales, Sargento—respondió por mensaje Michael79 mientras dejaba su equipo en la armería de la comisaría donde trabajaba. Se quedó con su uniforme gris de servicio: un traje de una pieza que le cubría todo el cuerpo, botas de combate negras y su visor con el cual se comunicaba con DPhelps12.
 
-—No es gran cosa, pero igual se agradece—dijo Michael79, empujando su vaso lejos. 
-Temía que el impulso de beber por inercia lo destruyera desde adentro.
+—Estos turnos de 96 horas me van a matar—
 
-—¿No que el Sargento tenía una historia para hoy?—preguntó, ya más cómodo.
+{{< voz sender="DPHELPS12" >}}Ya, ya, eso no es nada, la mayor parte del tiempo te la pasas detrás de un escritorio.{{< /voz >}}
 
-—¿La de la prostituta que tiramos hoy temprano?—respondió DPhelps12.
+La voz en el mensaje se escuchaba ligeramente con música de fondo: una mezcla retro del siglo XXI con géneros de Europa del Este. La transmisión de audio no provenía de la boca, sino del hueso mandibular, minimizando el ruido incluso en zonas de combate pesadas.{{< fnote index="1" >}}La tecnología de transmisión ósea fue adoptada en 2080 para soldados corporativos. Reemplaza los micrófonos visibles con vibración intraósea, disminuyendo interferencias.{{< /fnote >}}
 
-Michael79 asintió.
+{{< msg sender="PCHANG107" >}}LOLOL PUSSY{{< /msg >}}
 
-—Esa misma. Mencionó que era cómica pero ESanders30 y SJackson92 no le hallaron 
-gracia. Me dio curiosidad.
+Los mensajes de PChang107 siempre contenían incoherencias o estupideces. El efecto de la red había deteriorado la habilidad para comunicarse de la humanidad en general, pero en algunos casos extremos las corporaciones debían reeducar a sus empleados con un léxico más amplio—ahora conocido como **léxico Corporativo**.{{< fnote index="2" >}}El "léxico Corporativo" es un sistema de entrenamiento lingüístico obligatorio que sustituye los dialectos de red fragmentados por estructuras aceptables en entornos laborales automatizados.{{< /fnote >}}
 
-DPhelps12 se recostó, brazos detrás de la cabeza, cables sobresaliendo como 
-serpientes metálicas. Tronó los dedos, como si activara un archivo almacenado 
-en su memoria de combate.
+—Los veo en unos minutos—
 
-> `MSG [PCHANG107]: STORY KEK`
+Michael79 salió del decrépito edificio de treinta pisos a la calle de nivel suelo, teniendo dos salidas más por las calles superiores: una a diez pisos y otra a veinte. Pasó a una esquina donde se podían rentar vehículos. Se montó en uno que era una **rueda metálica con un asiento central**, cargó la locación a la que quería ir y comenzó a moverse. No necesitaba manejarlo—y aunque quisiera, no podía. La inteligencia artificial que controlaba el tráfico no lo permitiría.
+
+{{< fnote index="3" >}}Los permisos para tránsito vertical solo se otorgan a facciones de seguridad municipal y cuerpos diplomáticos. El cruce no autorizado implica multas de hasta 1000 MXCR.{{< /fnote >}}
+
+Pero siendo parte de la fuerza de seguridad de la ciudad, podía mandar un **código de alerta** que le daba paso libre: altos, intersecciones, de un nivel a otro e incluso el **detener el tráfico por completo** para continuar su camino.
+
+No había mucho que se pudiera hacer al respecto cuando existían abusos de poder de ese tipo. Podían confrontarlo, pero a menos que alguien se atreviera a ponerle una bala en la cabeza, la justicia no llegaría.
+
+{{< fnote index="4" >}}Los códigos de alerta SOC-COR tienen prioridad sobre flujos urbanos, incluso en zonas densamente pobladas. Se registran pero no se revisan sin intervención legal federal.{{< /fnote >}}
+
+Ciertamente no era por ineficiencia de las compañías libres—como el Batallón del Coronel Eduardo Casanova, en el cual trabajaban Michael79, DPhelps12 y PChang107—sino por culpa del sistema que había privatizado todas las funciones del gobierno.
+
+Se cambiaban los contratos cada dos a cuatro años, perdiendo continuidad en proyectos, experiencia y cualquier posibilidad de resolver pendientes. En casos de justicia se volvía imposible—una vez fuera de los límites territoriales, la compañía libre no podía ser perseguida.
+
+A esto se le conoce como el **ciclo de Grimwald** y su compañía libre militar. Fue el primero en darse cuenta de que podía abusar de sus poderes, brincar a otro país por otro contrato, y repetir. La idea parecería cerrarle la puerta a clientes, pero tras veinte años, el caso ya estaba frío y olvidado.
+
+La **memoria pública** era demasiado corta.
+
+{{< fnote index="5" >}}El "ciclo de Grimwald" es considerado como la génesis de las operaciones rotativas SOC-COR. Estudios sociopolíticos afirman que marcó el colapso de la noción de jurisdicción internacional en el sector privado.{{< /fnote >}}
