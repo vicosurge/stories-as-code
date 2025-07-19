@@ -1,6 +1,6 @@
 ---
 title: "Androides y el mundo del Futuro"
-date: 2025-07-18T23:02:00-07:00
+date: 2016-08-15T23:02:00-07:00
 draft: false
 tags: ["cyberpunk", "digimente", "androides"]
 categories: ["stories"]
@@ -81,7 +81,9 @@ Avanzó unos metros por la atascada calle y entró al lugar llamado BARRA—o �
 
 {{< glitch-box >}}
 ⚠️ ALERTA DE SONIDO — UMBRAL EXCEDIDO  
+
 Canal Cortical-23 detectado.  
+
 Respuesta del usuario: “No hay problema”
 {{< /glitch-box >}}
 
