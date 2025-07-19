@@ -61,7 +61,7 @@ La **memoria pública** era demasiado corta.
 
 ---
 
-## REGISTRO-079b
+## REGISTRO-079B
 
 {{< serial-header
 entry="REGISTRO-079B"
@@ -143,4 +143,266 @@ Michael79 asintió.
 
 DPhelps12 suspiró y colocó ambos brazos detrás de la cabeza. Cables visibles. Su mirada comenzaba a cambiar.
 
-> Continuará en: `REGISTRO-079C`
+---
+
+## REGISTRO-079C
+
+{{< serial-header
+entry="REGISTRO-079C"
+title="Historia de una androide // [SOC-COR] Recolección Oral"
+subject="DPhelps12"
+location="BARRA-32D, Nivel Subterráneo"
+timestamp="2112.07.13-T21:53"
+access="DELTA"
+threat="Fluctuante (Confesión Personal)"
+music="Cortical-23 // Intensidad media"
+crowd_density="Alta (Ruido mitigado por visor)"
+>}}
+
+—Bueno, esto queda aquí entre nosotros aunque igual no me importa mucho, no es como si fueran a hacer algo al respecto—
+
+{{< msg sender="PCHANG107" >}}???{{< /msg >}}
+
+—Resulta que la prostituta que tiramos era un androide, de esos que se encuentran en el mercado a precios módicos y accesibles, de los que todavía pueden pasar por humanos y tienen programación que los hace compatibles con la interacción humana. No era la gran cosa, me refiero a la prostituta, pero hace algunos años me tocó atender una llamada que hizo al departamento—
+
+—¿Por qué un androide ilegal hablaría a la policía? Ni un androide de los que encuentra uno por la calle o en lugares de servicio llaman para reportar algo, claro al menos que estén buscando una tunda—respondió Michael79, conmocionado por el hecho.
+
+{{< msg sender="PCHANG107" >}}LOLOL REKT{{< /msg >}}
+
+—Eso es algo que en su momento tendrá sentido. Cuando pasó el evento no teníamos la más mínima idea de lo que estaba pasando más allá de un reporte de un androide ilegal. Ya saben que esos no los dejamos pasar por nada. PChang107 sabe de lo que hablo—
+
+{{< msg sender="PCHANG107" >}}PIÑATA PARTY WOO{{< /msg >}}
+
+La respuesta no le agradó a Michael79, ni mucho menos la postura que DPhelps12 manejaba con respecto a los androides. En lo personal, Michael79 no tenía ningún problema con ellos ni entendía la fobia tremenda hacia las máquinas.
+
+Los puritanos querían derretir los metales y reciclar los materiales de construcción de androides, buscando herramientas que permitieran al humano obtener frutos con sus propias manos. Este pensamiento reaccionario tenía fuerza en círculos conservadores y extremistas que abogaban por el fin del mercado libre y la globalización.
+
+Aunque los pintaban de locos y anticuados, algunas de sus ideas no le parecían tan descabelladas a Michael79. Sin embargo, no estaba dispuesto a tomar un martillo ni una hoz—para él, la solución venía del transhumanismo. Estaba seguro de que aquellos que tomaran esa vía terminarían por reemplazar tanto humanos como androides, especialmente si formaban una conciencia digital y se desconectaban de este mundo atroz.
+
+—Resulta que ese día estábamos en servicio yo y JRamirez44, ya saben, el legendario 44—
+
+{{< msg sender="PCHANG107" >}}NOT WORTHY{{< /msg >}}
+
+Michael79 asintió, impresionado. Levantó las cejas ligeramente.
+
+—Sí, ya sé. Lástima que el viejo 44 no supiera cuándo decir que no, pero al menos nos quedamos con su copia digital en el archivo. Según los rumores, pronto lo veremos de vuelta en la Compañía—dijo DPhelps12.
+
+—¿En serio van a hacer eso? ¿La Compañía puede costear algo así?—
+
+—Claro que no. Ya pagamos suficiente en mantenimiento de partes, armamento, municiones y almacenaje digital. Pero sí pudimos costear un contrato con Corporaciones médicas que nos darán descuentos amplios en modificaciones y respaldo de tres cuerpos durante la duración del contrato.
+
+{{< glitch-box >}}
+[ACTUALIZACIÓN INTERNA]  
+Contrato SOC-COR Nº09121-MD Reestructurado  
+Modificaciones extendidas: Sí  
+Cuerpos de respaldo: 3  
+Fecha de activación: Próxima semana  
+🔒 Confidencial – No divulgar
+{{< /glitch-box >}}
+
+Los lentes de PChang107 mostraban una “X” blanca mientras se recostaba. Michael79 no lo podía creer. El gusto que le daba escuchar eso era enorme.
+
+—Sí, ya sé. El viejo Coronel todavía tiene trucos debajo de la manga. Les advierto que eso se va a anunciar la semana siguiente y que no deben decirle a nadie. También les informo que vamos a comprar nuevo armamento de tipo militar y nuevos trajes de combate, posiblemente unos Raynham. Es obvio a qué nos estamos metiendo. El viejo sabe que debe hacer buenos gastos para lo que vamos a trabajar—
+
+—Eso realmente no me lo esperaba. Nunca pensé que el Coronel nos fuera a llevar…—
+
+Michael titubeó. Todos sabían lo que faltaba en esa oración. Trabajar para los gobiernos era una cosa; **trabajar para las Corporaciones era un pacto con el diablo.**
+
+Se rumorea que antes de la mitad del contrato, muchos ya habrán gastado todas sus prestaciones y estarán en números rojos. Pero todo era política y conexiones en un mundo que avanzaba demasiado rápido.
+
+---
+
+## REGISTRO-079D
+
+{{< serial-header
+entry="REGISTRO-079D"
+title="Legado de la androide // [SOC-COR] Análisis Situacional y Ético"
+subject="DPhelps12, Michael79, PChang107"
+location="BARRA-32D, Nivel Subterráneo"
+timestamp="2112.07.13-T22:06"
+access="DELTA"
+threat="Alta (Reflexión Política)"
+music="Cortical-23 // Volumen elevado"
+crowd_density="Densa (Ruido filtrado por visor de Compañía)"
+>}}
+
+—En fin, regresemos al tema de la prostituta. Resulta que fuimos a una parte horrible de la ciudad para atender la llamada. Sabíamos que algo malo nos pasaría, pero JRamirez44 tenía una buena corazonada y le agradezco por eso.
+
+Llegamos a unos apartamentos de bajo costo. Teníamos las miradas sobre nosotros. Sacamos los rifles de la unidad—unos VX-1200 viejos, más imponentes que útiles—y entramos dejando claro que nos estábamos jugando algo.
+
+—Aunque para ser honesto yo iba con medio mojón en el pantalón—
+
+{{< msg sender="PCHANG107" >}}LOLOL STAIRS FTW{{< /msg >}}
+
+El edificio tenía más de doscientos pisos. Michael79 mostró asco.
+
+—Qué asco, maldita gente pobre que no puede mantener sus edificios funcionando—dijo.
+
+—¿Cuál es su maldito problema?—
+
+—No sé, tal vez no tienen suficiente dinero con los precios del mercado siempre inflándose y los materiales de tan mala calidad. Asumo que ese sea el problema. Tal vez también el salario global no se mueve acorde con este mercado—
+
+—Eh, tal vez, pero esa no es suficiente razón—
+
+DPhelps12 se acomodó. Acercó su brazo derecho a Michael79. De la parte superior del brazo salió una cuchilla plateada, detenida a centímetros del rostro.
+
+—No sé si lo sepas, pero esta cuchilla está hecha de un material que hoy en día es muy caro. Tan caro que vale más que algunos de los edificios donde vive la mayoría de esta ciudad. Me lo costee hace años porque trabajo para una Compañía Libre. Nuestros precios están lo suficiente inflados como para sobrevivir los mercados volátiles.
+
+{{< fnote index="1" >}}Los sistemas de armas SOC-COR son asignados por categoría de rendimiento y rango operativo. La cuchilla mostrada parece ser de aleación exótica MX-FLEX, prohibida en zonas civiles.{{< /fnote >}}
+
+—La gente pobre de la que te quejas no tiene opción. O se esclaviza a una Corporación de por vida, o espera tener suficiente dinero al final del día para comer. Por eso tantos viven así. Por eso tantos terminan en trabajos ilícitos. Por eso tantas zonas viejas de la ciudad son deprimentes y oscuras—porque a nadie le importa ayudarlos. Es la humanidad contra la humanidad por unos centavos más al final del día. Que te quede claro: **la culpa no es de ellos, sino de todos nosotros que lo llevamos a este extremo. ¿Está claro?**
+
+—Sargento calma, no tiene que ponerse tan filosófico ni político conmigo—dijo Michael79, alejándose de la cuchilla vibrante.
+
+{{< msg sender="PCHANG107" >}}2 DEEP 4 ME{{< /msg >}}
+
+—Única advertencia.
+
+La cuchilla se retractó. Los brazos de DPhelps12 regresaron detrás de su cabeza.
+
+—Llegamos al tope del edificio. Nos costó encontrar el lugar por la numeración vieja y nueva combinada. Dentro encontramos a un hombre y a una mujer sentados en sillas de madera, mirándose fijamente. No parpadeaban.
+
+Esperamos. Nada ocurrió por diez minutos.
+
+—¿Quién reaccionó primero?—preguntó Michael79.
+
+{{< msg sender="PCHANG107" >}}OMG WAT NAO{{< /msg >}}
+
+—Nosotros. JRamirez44 fue valiente. Yo lo cubrí. Esperaba soltar todo el cargador en cuanto viera movimiento. Por suerte se me olvidó quitar el seguro. Les juro que hubiera matado a los tres, incluso a mí mismo.
+
+{{< fnote index="2" >}}Los rifles VX-1200 incluyen seguros manuales por protocolo de Compañía. Olvidarlo en campo abierto implica sanción de Nivel-2, excepto si evita pérdida de vida.{{< /fnote >}}
+
+Michael79 y PChang107 soltaron carcajadas que duraron minutos. DPhelps12 se contuvo, pero la vergüenza era visible.
+
+—Sí, ríanse hijos de puta. Ustedes nunca han peleado contra androides—
+
+—Calma, Sargento. Sigue con la historia—
+
+—No disparé ni yo ni JRamirez44. Pero ambos se movieron repentinamente y nos miraron confundidos. No hablaban. Pronto notamos que **ninguno de los dos presentaba señas de ser humanos**—
+
+—¿Los dos eran androides?—
+
+—Eso es una broma enferma. Alguien tuvo que planear eso con dedicación—
+
+—Nada de eso. La historia se vuelve más macabra. La prostituta era un androide que originalmente trabajaba en una tienda de ropa. El modelo salió de servicio y lo tiraron a reciclaje. Pero la planta también movía androides al **mercado negro**.
+
+{{< fnote index="3" >}}El tráfico de androides desactivados representa el 18% del comercio ilegal urbano. Las plantas de reciclaje con operaciones encubiertas son monitoreadas por el Consejo Corporativo de Desviaciones Éticas.{{< /fnote >}}
+
+No me malinterpreten—alguna gente está **mal de la cabeza**, y no lo digo por adaptar un androide para usos sexuales. Es más barato y eficiente hacer eso.
+
+{{< glitch-box >}}
+🚨 FILTRACIÓN DE CÓDIGO ÉTICO  
+Protocolo de reprogramación: [NO AUTORIZADO]  
+Uso esperado: Interacción sexual  
+Uso registrado: “Compañía en habitación”  
+Estado: 🟥 Activación incompleta  
+—FIN DEL BLOQUE—  
+{{< /glitch-box >}}
+
+---
+
+## REGISTRO-079E
+
+{{< serial-header
+entry="REGISTRO-079E"
+title="Eliminación de la unidad // [SOC-COR] Evento Crítico"
+subject="PChang107, DPhelps12"
+location="BARRA-32D, Instalaciones Sanitarias"
+timestamp="2112.07.13-T22:29"
+access="DELTA"
+threat="Crítica (Fragmentación de Operativo)"
+music="Cortical-23 // Nivel no mitigado"
+crowd_density="Alta (Evacuación parcial posterior al evento)"
+>}}
+
+—Ya sé lo que vas a decir. Insisto, ese no es el problema. El problema son aquellos con suficiente dinero para comprarlos, modificarlos, meterles una bomba química o biológica... incluso una bomba de nanomáquinas. Soltarlos en zonas densamente pobladas. El caos y destrucción que causan es inmenso.
+
+—El ataque terrorista en Londres fue por un androide. No se hizo público. Nadie cargaría un aparato nuclear sabiendo el riesgo de ser detectado. Pero un androide pasa desapercibido. Los grupos de seguridad no tienen el criterio para identificarlo. Por eso no se hace público. El nivel de pánico le daría la razón a los conservadores para desmantelar millones de androides. El mercado libre se colapsaría. Miles quedarían en la ruina. O peor: morirían de hambre.
+
+—Eso es imposible, Sargento. Alguien tendría que llenar los huecos por el déficit de trabajadores. Se arreglarían más cosas de las que se dañarían—
+
+—Sí, la teoría dice eso. Pero la realidad es distinta. El salario no ha aumentado. Las condiciones no son dignas. La mayoría se va a rehusar a trabajar por esos puestos. Pagarían miseria. Requeriríamos cantidades exponenciales de trabajadores especializados. También herramientas para compensar por deficiencias humanas. Estaríamos retrocediendo 50 años. El declive sería horrible. Tomaría otros 50 años recuperarlo.
+
+{{< fnote index="1" >}}El informe SOC-COR/NEXUS-7 estima que la pérdida de androides funcionales generaría un déficit de 27% en eficiencia urbana. El reemplazo humano implicaría gasto adicional por punto porcentual de rendimiento.{{< /fnote >}}
+
+—¿Ahora somos optimistas?—
+
+—No. Nuevamente, soy realista. Si fuese una opción barata, la considerarían. Pero volveríamos a cuestiones legales y humanas. Una sub-especie no tiene los mismos derechos. ¿Sería justificable jugar a ser dioses?
+
+—La pregunta también es válida para los androides. No podemos jugar simplemente a ser dioses. Levantar algo y tirarlo porque no nos gusta. No hablo en cuestión moral. Solo siento que no es correcto.
+
+—Por eso existen las Compañías Libres—
+
+—Sí, pero no todos quieren entrar. Los riesgos son grandes. La mayoría muy perezosa. Quieren estar sentados haciendo algo sin mucha demanda física ni intelectual. Y esos trabajos ya no existen. Los astutos ya los tomaron.
+
+—Regresemos. La prostituta había llamado para reportar al hombre. También era un androide. Trabajaba ilegalmente para una corporación cuyo nombre no recuerdo. En su programación tenía la necesidad de buscar prostitutas para “matar el tiempo”. Esta parte venía de memorias asignadas—posiblemente humanas.
+
+—Eso es bastante original. Nunca había escuchado algo así. La corporación debía interesarle que pareciera humano—
+
+—Esa es la clave. Incluso los órganos liberaban fluido seminal para la apariencia completa. Lo interesante es que los androides programados para comprender emociones humanas pueden detectar esto rápidamente. La prostituta tenía una programación amplia. Era obvio que se daría cuenta.
+
+—Qué buena programación. Pudo distinguir que el otro era androide, aunque fuera de corporación—
+
+—Dato interesante. Entre las curiosidades del androide estaba su protocolo de auto-defensa. En situaciones como esta, debía eliminar al objetivo. Pero hay errores en esos protocolos que no se pueden evitar.
+
+—Un androide no puede matar a otro androide—dijo PChang107 con su voz mecánica. Se quitó los lentes. Sus ojos eran casi blancos.
+
+{{< glitch-box >}}
+⚠️ PROTOCOLO INESTABLE  
+Tipo: Auto-defensa  
+Objetivo: Otro androide detectado  
+Resultado: Paralización por contradicción lógica  
+—Fin del Registro—
+{{< /glitch-box >}}
+
+—Tan bajas son las posibilidades que uno no sabía qué hacer con el otro. Tuvieron que llamarnos. El problema es que **nosotros tampoco sabíamos qué hacer.** Ambos eran ilegales: uno Corporativo, otro "público". Ninguno con derechos.
+
+—Si hubiéramos hecho algo al respecto, la Compañía hubiera ardido. El Coronel no podría zafarse de la furia de los intereses, especialmente los corporativos. Les indicamos que no volvieran a llamar. Que olvidaran el asunto. O intervendríamos a nivel federal o corporativo.
+
+—¿Realmente podemos hacer eso?—
+
+—En casos extremos. No quería pensar en consecuencias. Solo nos largamos. El Coronel estaba enterado y nos dijo que lo manejaría. La única pista que les doy: **a esa prostituta la desechamos por órdenes directas del Coronel.**
+
+—¿Y eso tiene que ver con nuestro nuevo contrato?—
+
+DPhelps12 sonrió.
+
+—No lo pienses mucho. Tal vez sí. Tal vez no. El viejo tiene trucos. Igual nada le costaría matarme.
+
+—Tiene razón, Sargento. A veces pienso que somos intocables—
+
+—Me gustaría pensar eso también. A veces lo somos. Solo hay que saber jugar las cartas. Ahora si me disculpan, tengo rato aguantando las ganas de orinar. Cuando regrese, les cuento otra aventura—
+
+—Va, Sargento—
+
+—Yo también voy. Quería escuchar el final—
+
+DPhelps12 y PChang107 se movieron entre mesas, carne, metal, máquina, basura. Llegaron al baño atascado. DPhelps12 alcanzó un urinario. Pero PChang107, sin poder aguantar más, usó un lavamanos que tenía hielo.
+
+Terminó primero. Aliviado, sacó una subametralladora de su chaleco y descargó el cargador en DPhelps12 antes de que pudiera reaccionar.
+
+{{< glitch-box >}}
+🚨 EVENTO TERMINAL  
+Unidad: DPHELPS12  
+Estado: Neutralizado  
+Localización: Sanitarios BARRA-32D  
+Testigos: Evacuados / No rastreables  
+Causa: PChang107  
+—Ninguna reacción verbal registrada—  
+{{< /glitch-box >}}
+
+DPhelps12 lo miró. Frío. Vacío.
+
+PChang107 recargó su arma. Los presentes corrieron. Por la música fuerte y luces estrambóticas, nadie supo que había pasado.
+
+> —No es nada personal, Dave. Los negocios son negocios—
+
+Guardó el arma. Salió por una salida de emergencia al callejón.
+
+{{< glitch-box >}}
+🗑️ COMANDO FINAL  
+ATTN: ¿DPHELPS12 NO EXISTE?  
+MSG [PCHANG107]: BORRAR RECORD  
+❌ ERROR: DPHELPS12 NO EXISTE  
+--EOF--
+{{< /glitch-box >}}
