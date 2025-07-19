@@ -1,8 +1,10 @@
 <div class="serial-header">
   <strong>{{ .Get "entry" }}</strong> :: {{ .Get "title" }}<br>
-  <span class="meta">Subject: {{ .Get "subject" }}<br>
-  Location: {{ .Get "location" }}<br>
-  Timestamp: {{ .Get "timestamp" }}<br>
-  Access Level: {{ .Get "access" }}<br>
-  Threat Level: {{ .Get "threat" }}</span>
+  <span class="meta">
+    Sujetos: {{ .Get "subject" }}<br>
+    Ubicación: {{ .Get "location" }}<br>
+    Fecha/Hora: {{ .Get "timestamp" }}<br>
+    Nivel de acceso: {{ .Get "access" }}<br>
+    Nivel de amenaza: {{ .Get "threat" }}
+  </span>
 </div>
