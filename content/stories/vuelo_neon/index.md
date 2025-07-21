@@ -5,6 +5,8 @@ keywords: ["neon dystopia", "urban chaos", "vehicular surrealism", "digital ange
 tags: ["ficción", "cyberpunk", "español", "distopía", "acción"]
 abstract: En una ciudad de espejos y neón donde las figuras se mueven como titanes y caen como ángeles sin alas, un salto final los lleva al abismo. Esta pieza electrificada captura la desesperación, la velocidad y la belleza radiante de una huida imposible.
 date: 2012-01-13
+series: ["The Corporation Battleground"]
+series_order: 3
 ---
 Truenos, se escuchan motores a todo volumen de vehículos azul neón surcando 
 por tubos amarillos ficticios que marcaban el principio y el fin de su camino.

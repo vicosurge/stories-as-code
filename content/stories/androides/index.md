@@ -5,6 +5,8 @@ draft: false
 tags: ["cyberpunk", "digimente", "androides"]
 categories: ["stories"]
 description: "Fragmento narrativo ambientado en un mundo decadente y privatizado, parte del universo Digimente."
+series: ["The Corporation Battleground"]
+series_order: 1
 ---
 
 ## REGISTRO-079A
