@@ -1,5 +1,5 @@
 ---
-title: There's shadowmen on the beach
+title: "Death to Tyrants"
 author: Vicente Manuel Munoz Milchorena
 tags: ["childhood", "short story", "english"]
 date: 2018-10-27
