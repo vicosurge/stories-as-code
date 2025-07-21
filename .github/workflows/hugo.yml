@@ -1,23 +1,18 @@
 name: Deploy Hugo site to Pages
-
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
 defaults:
   run:
     shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -61,6 +56,40 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      
+      # Slack notification for successful build
+      - name: Slack Notification - Build Success
+        if: success()
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_CHANNEL: github
+          SLACK_COLOR: good
+          SLACK_MESSAGE: |
+            Repository: ${{ github.repository }}
+            Branch: ${{ github.ref_name }}
+            Commit: ${{ github.event.head_commit.message }}
+            Status: Compilation successful, ready for deployment
+          SLACK_TITLE: ✅ Hugo Build Completed
+          SLACK_USERNAME: Hugo Build Bot
+      
+      # Slack notification for failed build
+      - name: Slack Notification - Build Failed
+        if: failure()
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_CHANNEL: github
+          SLACK_COLOR: danger
+          SLACK_MESSAGE: |
+            Repository: ${{ github.repository }}
+            Branch: ${{ github.ref_name }}
+            Commit: ${{ github.event.head_commit.message }}
+            Status: Compilation failed - check logs for details
+            
+            View Build Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SLACK_TITLE: ❌ Hugo Build Failed
+          SLACK_USERNAME: Hugo Build Bot
 
   deploy:
     environment:
@@ -72,3 +101,39 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      
+      # Slack notification for successful deployment
+      - name: Slack Notification - Deploy Success
+        if: success()
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_CHANNEL: github
+          SLACK_COLOR: good
+          SLACK_MESSAGE: |
+            Repository: ${{ github.repository }}
+            Branch: ${{ github.ref_name }}
+            Site URL: ${{ steps.deployment.outputs.page_url }}
+            Status: Live and accessible
+            
+            Visit Site: ${{ steps.deployment.outputs.page_url }}
+            View Deployment: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SLACK_TITLE: 🚀 Site Successfully Published
+          SLACK_USERNAME: Hugo Deploy Bot
+      
+      # Slack notification for failed deployment
+      - name: Slack Notification - Deploy Failed
+        if: failure()
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_CHANNEL: github
+          SLACK_COLOR: danger
+          SLACK_MESSAGE: |
+            Repository: ${{ github.repository }}
+            Branch: ${{ github.ref_name }}
+            Status: Failed to publish to GitHub Pages
+            
+            View Deployment Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SLACK_TITLE: 💥 Deployment Failed
+          SLACK_USERNAME: Hugo Deploy Bot
