@@ -63,7 +63,7 @@ jobs:
         uses: 8398a7/action-slack@v3
         with:
           status: success
-          channel: '#deployments'  # Change to your channel
+          channel: '#github'  # Change to your channel
           author_name: 'Hugo Build Bot'
           text: |
             ✅ *Hugo Build Completed*
@@ -80,7 +80,7 @@ jobs:
         uses: 8398a7/action-slack@v3
         with:
           status: failure
-          channel: '#deployments'  # Change to your channel
+          channel: '#github'  # Change to your channel
           author_name: 'Hugo Build Bot'
           text: |
             ❌ *Hugo Build Failed*
