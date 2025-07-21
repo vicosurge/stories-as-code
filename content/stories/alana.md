@@ -155,7 +155,7 @@ CÁMARA: N/A
 
 Alana acomodo el arma a la vista y presionó un pequeño botón al frente del arma.
 
-{{< /glitch-box >}}
+{{< glitch-box >}}
 MSG [CONECTOR 12]: LÁSER: ON  
 {{< /glitch-box >}}
 
