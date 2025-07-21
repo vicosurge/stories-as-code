@@ -65,14 +65,14 @@ jobs:
           status: success
           channel: '#deployments'  # Change to your channel
           author_name: 'Hugo Build Bot'
-          title: '✅ Hugo Build Completed'
           text: |
+            ✅ *Hugo Build Completed*
             *Repository:* ${{ github.repository }}
             *Branch:* ${{ github.ref_name }}
             *Commit:* ${{ github.event.head_commit.message }}
             *Build Status:* Compilation successful, ready for deployment
-          color: good
-          webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       
       # Slack notification for failed build
       - name: Slack Notification - Build Failed
@@ -82,16 +82,16 @@ jobs:
           status: failure
           channel: '#deployments'  # Change to your channel
           author_name: 'Hugo Build Bot'
-          title: '❌ Hugo Build Failed'
           text: |
+            ❌ *Hugo Build Failed*
             *Repository:* ${{ github.repository }}
             *Branch:* ${{ github.ref_name }}
             *Commit:* ${{ github.event.head_commit.message }}
             *Build Status:* Compilation failed - check logs for details
             
             <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Build Logs>
-          color: danger
-          webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
   deploy:
     environment:
@@ -110,18 +110,18 @@ jobs:
         uses: 8398a7/action-slack@v3
         with:
           status: success
-          channel: '#github'  # Change to your channel
+          channel: '#deployments'  # Change to your channel
           author_name: 'Hugo Deploy Bot'
-          title: '🚀 Site Successfully Published'
           text: |
+            🚀 *Site Successfully Published*
             *Repository:* ${{ github.repository }}
             *Branch:* ${{ github.ref_name }}
             *Site URL:* ${{ steps.deployment.outputs.page_url }}
             *Deploy Status:* Live and accessible
             
             <${{ steps.deployment.outputs.page_url }}|Visit Site> | <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Deployment>
-          color: good
-          webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       
       # Slack notification for failed deployment
       - name: Slack Notification - Deploy Failed
@@ -129,14 +129,14 @@ jobs:
         uses: 8398a7/action-slack@v3
         with:
           status: failure
-          channel: '#github'  # Change to your channel
+          channel: '#deployments'  # Change to your channel
           author_name: 'Hugo Deploy Bot'
-          title: '💥 Deployment Failed'
           text: |
+            💥 *Deployment Failed*
             *Repository:* ${{ github.repository }}
             *Branch:* ${{ github.ref_name }}
             *Deploy Status:* Failed to publish to GitHub Pages
             
             <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Deployment Logs>
-          color: danger
-          webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
