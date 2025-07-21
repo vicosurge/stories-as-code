@@ -2,7 +2,7 @@
 title: "The House at the Canal"
 date: 2019-02-15
 type: "fiction"
-genre: ["urban horror", "esoteric crime", "satire", "Tijuana"]
+tags: ["urban horror", "esoteric crime", "satire", "Tijuana"]
 description: A morbid photographer explores a death-soaked house in Tijuana alongside two companions, chasing the perfect shot while ignoring escalating warnings. What he finds may be his greatest collection—or the beginning of something far worse.
 series: ["Division del Norte Chronicles"]
 series_order: 1

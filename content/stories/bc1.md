@@ -2,7 +2,7 @@
 title: "Border Crossing"
 date: 2006-01-01
 type: "fiction"
-genre: ["action", "satire", "meta-fiction", "absurdist", "road story"]
+tags: ["action", "satire", "meta-fiction", "absurdist", "road story"]
 description: Vico Surge and Skeller cross the border in a monster truck loaded with booze, beef, and bullets. Chaos ensues, the author intervenes, and an eraser threatens to wipe it all out. A grindhouse fever dream from the Border Adventures series.
 series: ["Border Adventures"]
 series_order: 1

@@ -2,9 +2,9 @@
 title: "Selene and Crockett: Temporal Intervention"
 date: 2020-06-10
 type: "fiction"
-genre: ["science fiction", "alternate history", "espionage", "action", "steampunk"]
+tags: ["science fiction", "alternate history", "espionage", "action", "steampunk"]
 description: "In a fractured timeline, Selene Aranda and Crockett intervene in a brutal uprising unfolding at a station where Roman legionnaires wield early firearms. Their mission: observe, record, and act before history becomes unrecognizable."
-series: "Chrono Agents"
+series: ["Chrono Agents"]
 series_order: 1
 ---
 

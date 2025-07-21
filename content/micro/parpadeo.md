@@ -2,10 +2,8 @@
 title: "Parpadeo"
 date: 2012-05-03
 type: "ficción"
-genre: ["existencial", "experimental", "poético", "psicológico"]
+tags: ["existencial", "experimental", "poético", "psicológico"]
 description: Imágenes fugaces entre la violencia, la paz, el cuerpo y la revelación. Cada parpadeo revela un mundo distinto, una memoria incompleta, hasta que lo único que queda es la oscuridad eterna.
-series: "Fragmentos del Digimente"
-series_order: 1
 ---
 
 Estás frente a un rombo. Parpadeas.

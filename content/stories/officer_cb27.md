@@ -2,7 +2,7 @@
 title: "Encounter of Officer CB27"
 date: 2017-09-24
 type: "fiction"
-genre: ["cyberpunk", "bureaucratic noir", "synthetic horror", "memory corruption"]
+tags: ["cyberpunk", "bureaucratic noir", "synthetic horror", "memory corruption"]
 description: Officer CB27 of the Bureau of Mechanical Control investigates a destroyed Android Makeover store and uncovers a dormant war machine from a bygone conflict. His attempt to secure its memory triggers an ambush, corruption, and a system reboot—his body torn, his programming fractured.
 series: ["The Corporation Battleground"]
 series_order: 1
