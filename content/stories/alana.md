@@ -57,3 +57,52 @@ Estado actual: regulado / dolor residual presente
 Observó la comida esperándola en la barra de la cocina, lo suficiente enorme como para servir a un grupo de seis personas con suficiente espacio entre cada uno, la cocina industrial daba espacio para un grupo de cocineros que podría servirles sin problema, el equipo en la cocina era completamente nuevo y mostraba pocas señales de uso, una cocina de este tipo, para una familia o individuos, quedaba lejos de las posibilidades de la mayoría, la Corporación solo permitía esto para algunos pocos.
 
 Camino descalza hacia la barra y observó la comida, cada paso que daba generaba un sonido particular, los puntos de presión en su pie cubiertos por sensores y fibra flexible que se endurecían y acomodaban al paso, su columna vertebral había sido reemplazada por un duro metal ligeramente flexible, permitiendo movimientos normales aunque algo toscos, recubriendo la mayor parte de la columna vertebral que se encontraba en mal estado debido a caídas y golpes, cableado salía de algunas secciones de la columna, alguno pasando debajo de la piel, dos eran visibles del cuello hacia el cráneo, otras partes del cuerpo como la sien, muñecas, tobillos, cadera y parte trasera del cuello mostraban pequeños orificios para conectar cables del mismo grosor, un
+
+---
+
+{{< serial-header
+entry="REGISTRO-ALANA-001"
+title="Prioridad Uno y cartografía del colapso"
+subject="Alana Hicks"
+location="Apartamento Corporativo, Sector S-T12"
+timestamp="2123.08.04-T07:44"
+access="OMEGA"
+threat="Alta (Misiones encadenadas / reflexión geopolítica)"
+>}}
+
+Mientras tomaba el desayuno por sus ojos comenzó a pasar un rio de información a alta velocidad, asuntos pendientes que habían sido atendidas por otros agentes, nada podía ni debía quedar sin atenderse, los Operadores, quienes supervisaban y cuidaban a los Agentes de Campo, se encargaban de que todos los objetivos asignados por la Corporación se cumplieran de una manera u otra.
+
+Terminando las notas anteriores comenzaron a llegar las órdenes del día, de la semana y del mes:
+
+{{< glitch-box >}}
+AUTH RSA-4096 – f41906512 (PRIV)  
+- / | \ - / | \ - / | \ - * …. SUCCESS  
+
+PENDIENTES [ALANA HICKS, f41906512] (2091)  
+==> 1  
+
+::ATENCIÓN INMEDIATA::  
+
+INFORME:  
+===PRIORIDAD CORPORATIVA CLASIFICACIÓN SEIS===  
+ENTREGA Y SALIDA INMEDIATA DE CARGAMENTO [B90], ENTREGA CONFIDENCIAL A [AGENTE CORPORATIVO ASIGNADO]  
+AUTORIZADA POR CONSEJO CORPORATIVO  
+ESCALADA DE PRIORIDAD => PRIORIDAD CORPORATIVA UNO  
+FECHA DE ENTREGA: [HOY]  
+
+RUTA DESIGNADA:  
+SECTOR 39 –SAN DIEGO, CALIFORNIA- => SECTOR A7 –TOKIO, JAPÓN-  
+SECTOR A7 –TOKIO, JAPÓN- +1 => ISTANBUL –1/+2  
+ISTANBUL +2 => B90 –BERLÍN, ALEMANIA- -2/++1  
+B90 –BERLÍN, ALEMANIA- ++1 => SECTOR 38 –TIJUANA, BAJA CALIFORNIA- --1.  
+{{< /glitch-box >}}
+
+Para el día de hoy, pensó Alana mientras leía nuevamente la nota. Peticiones urgentes no eran nada nuevo para ella, trabajos que escalaban rápidamente de clasificación hasta las manos más altas, ya fuera por complicaciones o debido a lo delicado de la operación, le intrigaba saber que requería mover la Corporación tan urgentemente de Berlín, probablemente algo de la Bóveda de Carlomagno.
+
+Se tomó el tiempo necesario para terminar su desayuno y café con calma, especialmente el café que rara vez tenía tiempo de tomar con esta calma, las otras notas que había recibido le eran de menor importancia ahora que sabía que le habían enviado a algo de tan alta prioridad, ni la nota de la explosión nuclear en Londres por un grupo extremista le llamaba la atención, una verdadera tragedia pero la Corporación ya estaba investigando el tema, cosas así nunca quedan sin resolver y el avispero en el que se había vuelto la situación generaría suficientes enemigos públicos para alimentar la maquinaria mediática, política y comercial por años.
+
+Probablemente el tema empezaría una guerra, Alana estaba más que segura que le llamarían para comenzar a operar en la zona de riesgo en cuanto se declarara quienes eran los enemigos de la Corporación, el problema no era el daño estructural o las muertes que había causado, de hecho era de la menor importancia para los gobiernos del mundo o la misma Corporación si explotaba un aparato nuclear de ese tamaño, de un radio aproximado de 500 metros, después de los incidentes de principios del siglo XXI la humanidad ya no podía llegar más lejos, estaba completamente insensibilizada a la muerte, pero la Corporación seguía las viejas mañas heredadas de su versión del siglo XX, manipular gobiernos en cuestión política y económica, llamar a la moral para la defensa de la humanidad, todo para vender más de lo que había hecho a la Corporación algo tan importante estos dos siglos, armamento de todo tipo y la garantía de que el consumir de la Corporación les daba seguridad de que tomarían acciones.
+
+Ya imaginaba la operación que deberían levantar para esto, la investigación probablemente tendría que escarbar bastante en Sudamérica y el Este de Europa, eventualmente llevándolos de vuelta a alguna de las viejas oficinas de la Corporación sobre las cuales difícilmente se mantenía cualquier control sólido hoy en día, Alana ya había hecho ese tipo de trabajo cuando empezó con la Corporación, se compadecía de quienes tuvieran que hacerlo, especialmente cuando tenían que llegar a tocar las zonas contaminadas, lo que quedaba de los Estados Unidos de América y la Unión Europea tampoco eran seguros, apenas las ciudades enclaustradas o el territorio de California Corporativa se mantenían de pie y aun así la humanidad seguía en declive, no se sabía mucho de los países de África o Asia más que de Japón y Sudáfrica, los cuales estaban casi abandonados, el fin era más que evidente.
+
+Esto era lo que le molestaba a Alana, no pensaba mucho en ello porque sus jefes le mimaban en exceso, pero la humanidad, después de todo lo que había pasado, de pasar a concentraciones de miles de millones ahora se mantenían en grupos aislados que aún pasaban de los millones aunque en declive, seguían matándose uno al otro, no le molestaba tener que matar a alguien si beneficiaba al resto de la humanidad, así lo seguía justificando, le molestaba las cantidades de muertes innecesarias, en algún momento de su vida verificó los reportes semanales de muertes, las gráficas le alarmaron lo suficiente como para requerir medicamento, más del que tomaba en esos tiempos, estos le dieron un paro cardiorespiratorio debido a los volúmenes que consumía junto con el alcohol, los ataque de pánicos casi la mataban durante las misiones, prefería vivir en la ignorancia que saber lo que realmente estaba pasando alrededor más allá de lo que tuviera que hacer.
