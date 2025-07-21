@@ -105,36 +105,35 @@ jobs:
       # Slack notification for successful deployment
       - name: Slack Notification - Deploy Success
         if: success()
-        uses: 8398a7/action-slack@v3
-        with:
-          status: success
-          channel: '#deployments'  # Change to your channel
-          author_name: 'Hugo Deploy Bot'
-          text: |
-            🚀 *Site Successfully Published*
-            *Repository:* ${{ github.repository }}
-            *Branch:* ${{ github.ref_name }}
-            *Site URL:* ${{ steps.deployment.outputs.page_url }}
-            *Deploy Status:* Live and accessible
-            
-            <${{ steps.deployment.outputs.page_url }}|Visit Site> | <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Deployment>
+        uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_CHANNEL: github
+          SLACK_COLOR: good
+          SLACK_MESSAGE: |
+            Repository: ${{ github.repository }}
+            Branch: ${{ github.ref_name }}
+            Site URL: ${{ steps.deployment.outputs.page_url }}
+            Status: Live and accessible
+            
+            Visit Site: ${{ steps.deployment.outputs.page_url }}
+            View Deployment: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SLACK_TITLE: 🚀 Site Successfully Published
+          SLACK_USERNAME: Hugo Deploy Bot
       
       # Slack notification for failed deployment
       - name: Slack Notification - Deploy Failed
         if: failure()
-        uses: 8398a7/action-slack@v3
-        with:
-          status: failure
-          channel: '#deployments'  # Change to your channel
-          author_name: 'Hugo Deploy Bot'
-          text: |
-            💥 *Deployment Failed*
-            *Repository:* ${{ github.repository }}
-            *Branch:* ${{ github.ref_name }}
-            *Deploy Status:* Failed to publish to GitHub Pages
-            
-            <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Deployment Logs>
+        uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_CHANNEL: github
+          SLACK_COLOR: danger
+          SLACK_MESSAGE: |
+            Repository: ${{ github.repository }}
+            Branch: ${{ github.ref_name }}
+            Status: Failed to publish to GitHub Pages
+            
+            View Deployment Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SLACK_TITLE: 💥 Deployment Failed
+          SLACK_USERNAME: Hugo Deploy Bot
