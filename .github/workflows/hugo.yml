@@ -60,38 +60,36 @@ jobs:
       # Slack notification for successful build
       - name: Slack Notification - Build Success
         if: success()
-        uses: 8398a7/action-slack@v3
-        with:
-          status: success
-          channel: '#github'  # Change to your channel
-          author_name: 'Hugo Build Bot'
-          text: |
-            ✅ *Hugo Build Completed*
-            *Repository:* ${{ github.repository }}
-            *Branch:* ${{ github.ref_name }}
-            *Commit:* ${{ github.event.head_commit.message }}
-            *Build Status:* Compilation successful, ready for deployment
+        uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_CHANNEL: deployments
+          SLACK_COLOR: good
+          SLACK_MESSAGE: |
+            Repository: ${{ github.repository }}
+            Branch: ${{ github.ref_name }}
+            Commit: ${{ github.event.head_commit.message }}
+            Status: Compilation successful, ready for deployment
+          SLACK_TITLE: ✅ Hugo Build Completed
+          SLACK_USERNAME: Hugo Build Bot
       
       # Slack notification for failed build
       - name: Slack Notification - Build Failed
         if: failure()
-        uses: 8398a7/action-slack@v3
-        with:
-          status: failure
-          channel: '#github'  # Change to your channel
-          author_name: 'Hugo Build Bot'
-          text: |
-            ❌ *Hugo Build Failed*
-            *Repository:* ${{ github.repository }}
-            *Branch:* ${{ github.ref_name }}
-            *Commit:* ${{ github.event.head_commit.message }}
-            *Build Status:* Compilation failed - check logs for details
-            
-            <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Build Logs>
+        uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_CHANNEL: deployments
+          SLACK_COLOR: danger
+          SLACK_MESSAGE: |
+            Repository: ${{ github.repository }}
+            Branch: ${{ github.ref_name }}
+            Commit: ${{ github.event.head_commit.message }}
+            Status: Compilation failed - check logs for details
+            
+            View Build Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SLACK_TITLE: ❌ Hugo Build Failed
+          SLACK_USERNAME: Hugo Build Bot
 
   deploy:
     environment:
@@ -110,7 +108,7 @@ jobs:
         uses: 8398a7/action-slack@v3
         with:
           status: success
-          channel: '#deployments'  # Change to your channel
+          channel: '#github'  # Change to your channel
           author_name: 'Hugo Deploy Bot'
           text: |
             🚀 *Site Successfully Published*
@@ -129,7 +127,7 @@ jobs:
         uses: 8398a7/action-slack@v3
         with:
           status: failure
-          channel: '#deployments'  # Change to your channel
+          channel: '#github'  # Change to your channel
           author_name: 'Hugo Deploy Bot'
           text: |
             💥 *Deployment Failed*
