@@ -5,8 +5,6 @@ keywords: ["realismo mágico", "folklore moderno", "militarismo absurdo", "fiest
 tags: ["ficción", "esotérico", "humor", "absurdo", "Digimente", "español"]
 abstract: En medio de una fiesta, un borracho insiste en abrir la puerta trasera para dejar pasar a un Cabo con un mensaje urgente para el Coronel. Lo que sigue es una ráfaga de caos, viento y confusión que transforma lo cotidiano en lo mítico. Una historia breve dentro de los mundos esotéricos de la Digimente.
 date: 2012-06-18
-series: "Mundos Esotéricos de la Digimente"
-series_order: 1
 ---
 
 -¡Cabo Vigencio Vargas, reportándose y pidiendo permiso para pasar por esta 

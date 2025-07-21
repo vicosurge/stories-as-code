@@ -4,8 +4,6 @@ date: 2020-06-10
 type: "fiction"
 tags: ["science fiction", "alternate history", "espionage", "action", "steampunk"]
 description: "In a fractured timeline, Selene Aranda and Crockett intervene in a brutal uprising unfolding at a station where Roman legionnaires wield early firearms. Their mission: observe, record, and act before history becomes unrecognizable."
-series: ["Chrono Agents"]
-series_order: 1
 ---
 
 “Crockett, tell me,” said Selene Aranda, her piercing blue eyes fixed on the incoming locomotive. The sun was setting behind the mountains, and the city was beginning to fade into shadow—street lights slowly turned on by operators walking down the street with long poles. “How good is your Latin?”
