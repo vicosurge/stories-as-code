@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <main class="mx-auto max-w-prose px-4">
+    <h1 class="text-3xl font-bold mb-4">{{ .Title }}</h1>
+    <ul class="list-disc pl-5 space-y-2">
+      {{ range .Pages.ByDate.Reverse }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="text-blue-500 hover:underline">
+            {{ .Date.Format "2006-01-02" }} – {{ .Title }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </main>
+{{ end }}
+
