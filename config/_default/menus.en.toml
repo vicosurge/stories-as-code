@@ -21,6 +21,11 @@
   weight = 15
 
 [[main]]
+  name = "Micro"
+  pageRef = "micro"
+  weight = 20
+
+[[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/vicosurge"
