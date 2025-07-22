@@ -7,10 +7,6 @@ description: A morbid photographer explores a death-soaked house in Tijuana alon
 series: ["Division del Norte Chronicles"]
 series_order: 1
 ---
-
-
-“For the Podcast of Locke Taelos”
-
 “Holy mother…” I gagged as the smell hit my nostrils. The house was in horrible condition, but that putrid stench was the seller. Never had this pleasure been bestowed on me, and I had high hopes that it never would be again.
 
 I got notice about the place just a day ago from Civil Protection. It was me, Scott, and his asshole friend Felix who came here—no clue what was wrong with the place until the smell hit us. Corpses. Probably leftovers from some narcos cleaning house. Never my field of interest, but the possibility of finding something worth documenting always drove these two dumbasses to follow me. They paid well, but I wasn’t in it for the money—I just had a morbid interest in the deceased.
