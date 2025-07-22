@@ -7,9 +7,9 @@ tags:
   - navarro
   - lodge
   - freemasonry
-  - vampiros
-  - plano-astral
-  - tecno-esoterismo
+  - vampires
+  - astral-plane
+  - tecno-esoterism
   - tubal-cain
 summary: "Scott Navarro acepta una misión que lo lleva al corazón de una logia abandonada en calle primera, donde fuerzas astrales y vampíricas aún resguardan un libro ceremonial. Lo que empieza como una entrega termina revelando secretos sobre la guerra entre Atlantis y Mu, entidades interdimensionales y una conspiración masónica de más de 47 años atrapada en el plano. El paquete no era lo importante: lo que despertó al abrirlo sí lo es."
 draft: false
