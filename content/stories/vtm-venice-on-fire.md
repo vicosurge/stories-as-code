@@ -1,9 +1,9 @@
 ---
-title: Vampire: The Masquerade - Venice in Flames
-author: Vicente Manuel Munoz Milchorena
+title: "Vampire: The Masquerade - Venice in Flames"
+author: "Vicente Manuel Munoz Milchorena"
 keywords: [vampire the masquerade, table-top campaign, setting]
 tags: ["vampire the masquerade", "table-top campaign", "setting", "english"]
-abstract: A Vampire: The Masquerade homebrew campaign
+abstract: "A Vampire: The Masquerade homebrew campaign"
 date: 2018-01-01
 ---
 # Vampire: The Masquerade - Venice in Flames
