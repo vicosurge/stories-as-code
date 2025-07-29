@@ -1,7 +1,7 @@
 ---
 title: "Yo(d)"
 author: "Vicente Manuel Muñoz Milchorena"
-created: 2020-12-29
+date: 2020-12-29
 tags:
   - kabbalah
   - mysticism
