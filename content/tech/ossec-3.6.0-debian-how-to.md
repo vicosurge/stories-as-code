@@ -1,8 +1,9 @@
 ---
 title: "Installing OSSEC 3.6.0 on Debian 10 (Buster) How-To"
-date: 2021-09-14T11:06:59-07:00
+date: 2021-09-14
 draft: false
 tags: ['ossec','debian','compilation']
+author: "Vicente Manuel Muñoz Milchorena"
 ---
 Because this always catches me by surprise when I need to do it, and while I
 don't do it often it is always this that bothers me the most, so here is how
