@@ -2,9 +2,12 @@
 title: "Installing OSSEC 3.6.0 on Debian 10 (Buster) How-To"
 date: 2021-09-14
 draft: false
-tags: ['ossec','debian','compilation']
+tags: ["security", "ossec", "hids", "monitoring", "linux"]
+categories: ["Security", "System Administration"]
+description: "A comprehensive guide to installing and configuring OSSEC HIDS 3.6.0 for host-based intrusion detection"
 author: "Vicente Manuel Muñoz Milchorena"
 ---
+
 Because this always catches me by surprise when I need to do it, and while I
 don't do it often it is always this that bothers me the most, so here is how
 to install OSSEC 3.6.0 as a local agent on a Debian 10 OS, has worked the same

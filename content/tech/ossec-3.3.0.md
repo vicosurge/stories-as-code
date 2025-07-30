@@ -85,5 +85,5 @@ Then run the control command with the desired action:
 
 Replace `[start|restart|stop]` with the appropriate action:
 - `start` - Start the OSSEC service
-- `restart` - Restart the OSSEC service  
+- `restart` - Restart the OSSEC service
 - `stop` - Stop the OSSEC service
