@@ -10,27 +10,49 @@ summary: >
 ---
 
 Grinding
-Call Centers,
-“Tired
-of this”,
-Been there,
-Done that,
-other
-hommie is
-wearing
-black
-glasses,
-“Was deported,
-I didn't
-even want
-to go to
-the USA,
-it's different,
-you wouldn't
-understand
-it”, No
-homes,
-good
-luck, take
-it easy.
 
+Call Centers,
+
+“Tired
+
+of this”,
+
+Been there,
+
+Done that,
+
+other
+
+hommie is
+
+wearing
+
+black
+
+glasses,
+
+“Was deported,
+
+I didn't
+
+even want
+
+to go to
+
+the USA,
+
+it's different,
+
+you wouldn't
+
+understand
+
+it”, No
+
+homes,
+
+good
+
+luck, take
+
+it easy.
