@@ -65,35 +65,29 @@ Movió una palanca: pantalla negra, letras blancas.
 
 Usó credenciales antiguas. Acceso concedido:
 
-```
-SISTEMA CORPORATIVO V2.14
-ADVERTENCIA: TODA LA INFORMACIÓN ES CONFIDENCIAL. VIOLACIONES SERÁN CASTIGADAS CON PENA DE MUERTE.
-```
+> SISTEMA CORPORATIVO V2.14
+> ADVERTENCIA: TODA LA INFORMACIÓN ES CONFIDENCIAL. VIOLACIONES SERÁN CASTIGADAS CON PENA DE MUERTE.
 
 > tobias@dxiv01191280 > mail
 > Tiene 0 correos almacenados.
 > Tiene 1 correo nuevo.
 > Leer? S/N > S
 
-```
-+++ CONFIDENCIAL +++ 
+> +++ CONFIDENCIAL +++ 
 
-DE: <<usuario borrado>> 
-PARA: <<usuario borrado>> 
-FECHA: <<clasificado>>
-Los parámetros han cambiado.
-Operación Éxodo comienza inmediatamente. 
+> DE: <<usuario borrado>> 
+> PARA: <<usuario borrado>> 
+> FECHA: <<clasificado>>
+> Los parámetros han cambiado.
+> Operación Éxodo comienza inmediatamente. 
 
-=== FIN DE MENSAJE ===
+> === FIN DE MENSAJE ===
 
-Activación automática:
+> Activación automática:
 
-ADVERTENCIA: AUTO-DESTRUCCIÓN EN 300 SEGUNDOS MUEVA EL EQUIPO A UNA ZONA SEGURA
+> ADVERTENCIA: AUTO-DESTRUCCIÓN EN 300 SEGUNDOS MUEVA EL EQUIPO A UNA ZONA SEGURA
 
-tobias@dxvi01191280 > ADMINISTRATOR COMMAND SD -T 300 -F in buffer
-
-```
-
+> tobias@dxvi01191280 > ADMINISTRATOR COMMAND SD -T 300 -F in buffer
 
 > —Russ, Mikhael, ¡tenemos menos de cinco minutos para salir de aquí! —gritó Tobias, cerrando el maletín violentamente.  
 Lo arrojó dentro de un cuarto con una cubeta metálica y una regadera oxidada.
@@ -121,18 +115,13 @@ Una bomba, activada si eran capturados.
 
 Conectó su rifle:
 
-```
-WEAPON 1: CONNECTING...
-XVC-50/AR OK, SINGLE, EMPTY
-```
+`WEAPON 1: CONNECTING...`
+`XVC-50/AR OK, SINGLE, EMPTY`
 
 Lo acomodó en la espalda mediante imanes.  
 Luego armó su pistola:
 
-```
-WEAPON 2: XVC-45/P OK, SINGLE, 10/10, READY
-```
-
+`WEAPON 2: XVC-45/P OK, SINGLE, 10/10, READY`
 
 Colocó la máscara:  
 Se extendió sobre rostro, cuello, hombros.  
