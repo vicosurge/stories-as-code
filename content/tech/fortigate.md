@@ -1,3 +1,12 @@
+---
+title: "The History of a Firewall: How to buy a used Fortigate and not die in the process"
+author: "Vicente Manuel Muñoz Milchorena"
+date: 2018-03-07
+tags: ["fortigate", "fortinet", "60C", "troubleshooting", "journey"]
+categories: ["fortinet", "journey"]
+description: "My misadventures with a Fortigate-60C."
+---
+
 # The History of a Firewall: How to buy a used Fortigate and not die in the process
 
 ## Introduction: When Overkill Meets Reality
