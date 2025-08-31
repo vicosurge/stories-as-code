@@ -52,7 +52,7 @@ jobs:
         id: cache-dart-sass
         uses: actions/cache@v4
         with:
-          path: /tmp/dart-sass
+          path: /tmp/dart-sass-cache
           key: dart-sass-${{ runner.os }}-${{ env.DART_SASS_VERSION }}
           restore-keys: |
             dart-sass-${{ runner.os }}-
@@ -61,18 +61,23 @@ jobs:
       - name: Install Dart Sass
         if: steps.cache-dart-sass.outputs.cache-hit != 'true'
         run: |
-          mkdir -p /tmp/dart-sass
+          mkdir -p /tmp/dart-sass-cache
           wget -O /tmp/dart-sass.tar.gz https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
           tar -xzf /tmp/dart-sass.tar.gz -C /tmp/
-          cp -r /tmp/dart-sass/* /tmp/dart-sass/
+          # Move extracted contents to cache directory
+          mv /tmp/dart-sass/* /tmp/dart-sass-cache/
+          rmdir /tmp/dart-sass
 
-      # Restore Dart Sass from cache and add to PATH
+      # Setup Dart Sass (from cache or fresh install)
       - name: Setup Dart Sass
         run: |
-          if [ -d "/tmp/dart-sass" ]; then
-            sudo cp /tmp/dart-sass/sass /usr/local/bin/
+          # Check if we have cached version or fresh install
+          if [ -d "/tmp/dart-sass-cache" ]; then
+            sudo cp /tmp/dart-sass-cache/sass /usr/local/bin/
             sudo chmod +x /usr/local/bin/sass
-            echo "/tmp/dart-sass" >> $GITHUB_PATH
+          else
+            echo "Error: Dart Sass installation not found"
+            exit 1
           fi
 
       - name: Checkout
