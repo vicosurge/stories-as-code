@@ -17,29 +17,97 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.146.0
+      HUGO_VERSION: 0.134.3
+      DART_SASS_VERSION: 1.69.5
     steps:
+      # Cache Hugo CLI installation
+      - name: Cache Hugo CLI
+        id: cache-hugo
+        uses: actions/cache@v4
+        with:
+          path: /tmp/hugo
+          key: hugo-${{ runner.os }}-${{ env.HUGO_VERSION }}
+          restore-keys: |
+            hugo-${{ runner.os }}-
+
+      # Install Hugo CLI (only if not cached)
       - name: Install Hugo CLI
+        if: steps.cache-hugo.outputs.cache-hit != 'true'
         run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          mkdir -p /tmp/hugo
+          wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i /tmp/hugo.deb
+          # Copy binary to cache location for future use
+          cp $(which hugo) /tmp/hugo/
+
+      # Restore Hugo from cache
+      - name: Restore Hugo from cache
+        if: steps.cache-hugo.outputs.cache-hit == 'true'
+        run: |
+          sudo cp /tmp/hugo/hugo /usr/local/bin/
+          sudo chmod +x /usr/local/bin/hugo
+
+      # Cache Dart Sass installation
+      - name: Cache Dart Sass
+        id: cache-dart-sass
+        uses: actions/cache@v4
+        with:
+          path: /tmp/dart-sass
+          key: dart-sass-${{ runner.os }}-${{ env.DART_SASS_VERSION }}
+          restore-keys: |
+            dart-sass-${{ runner.os }}-
+
+      # Install Dart Sass (only if not cached)
       - name: Install Dart Sass
-        run: sudo snap install dart-sass
+        if: steps.cache-dart-sass.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p /tmp/dart-sass
+          wget -O /tmp/dart-sass.tar.gz https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
+          tar -xzf /tmp/dart-sass.tar.gz -C /tmp/
+          cp -r /tmp/dart-sass/* /tmp/dart-sass/
+
+      # Restore Dart Sass from cache and add to PATH
+      - name: Setup Dart Sass
+        run: |
+          if [ -d "/tmp/dart-sass" ]; then
+            sudo cp /tmp/dart-sass/sass /usr/local/bin/
+            sudo chmod +x /usr/local/bin/sass
+            echo "/tmp/dart-sass" >> $GITHUB_PATH
+          fi
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+
+      # Cache Node.js dependencies (even if small, it's free optimization)
+      - name: Cache Node.js dependencies
+        if: hashFiles('package-lock.json', 'npm-shrinkwrap.json') != ''
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json', '**/npm-shrinkwrap.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Debug - List files
+
+      - name: Debug - List files and verify installations
         run: |
           echo "Current directory contents:"
           ls -la
           echo "Config file:"
-          cat config.yaml || cat config.toml || echo "No config file found"
+          cat config.toml || cat config.yaml || echo "No config file found"
+          echo "Hugo version:"
+          hugo version
+          echo "Sass version:"
+          sass --version
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
@@ -47,11 +115,13 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+
       - name: Debug - Check build output
         run: |
           echo "Build completed. Checking public directory:"
           ls -la public/ || echo "Public directory not found"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -70,6 +140,7 @@ jobs:
             Branch: ${{ github.ref_name }}
             Commit: ${{ github.event.head_commit.message }}
             Status: Compilation successful, ready for deployment
+            Hugo: ${{ env.HUGO_VERSION }} | Dart Sass: ${{ env.DART_SASS_VERSION }}
           SLACK_TITLE: ✅ Hugo Build Completed
           SLACK_USERNAME: Hugo Build Bot
       
@@ -127,7 +198,7 @@ jobs:
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          SLACK_CHANNEL: github
+          CHANNEL: github
           SLACK_COLOR: danger
           SLACK_MESSAGE: |
             Repository: ${{ github.repository }}
