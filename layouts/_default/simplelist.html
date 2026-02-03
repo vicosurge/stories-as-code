@@ -14,7 +14,7 @@
           {{ range .Pages.ByDate.Reverse }}
             <li class="group">
               <a href="{{ .RelPermalink }}" class="flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-6 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded px-2 py-2 -mx-2 transition-colors">
-                <time class="text-sm text-neutral-500 dark:text-neutral-400 font-mono shrink-0">{{ .Date.Format "Jan 02" }}</time>
+                <time class="text-sm text-neutral-500 dark:text-neutral-400 font-mono shrink-0" style="margin-right: 1.5rem;">{{ .Date.Format "Jan 02" }}</time>
                 <span class="font-medium group-hover:text-primary-600 dark:group-hover:text-primary-400">{{ .Title }}</span>
                 <span class="text-sm text-neutral-400 dark:text-neutral-500 hidden sm:inline">· {{ .ReadingTime }} min</span>
               </a>
