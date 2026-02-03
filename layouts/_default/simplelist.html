@@ -13,13 +13,13 @@
         <ul class="space-y-3">
           {{ range .Pages.ByDate.Reverse }}
             <li class="group">
-              <a href="{{ .RelPermalink }}" class="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded px-2 py-2 -mx-2 transition-colors">
+              <a href="{{ .RelPermalink }}" class="flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-6 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded px-2 py-2 -mx-2 transition-colors">
                 <time class="text-sm text-neutral-500 dark:text-neutral-400 font-mono shrink-0">{{ .Date.Format "Jan 02" }}</time>
                 <span class="font-medium group-hover:text-primary-600 dark:group-hover:text-primary-400">{{ .Title }}</span>
                 <span class="text-sm text-neutral-400 dark:text-neutral-500 hidden sm:inline">· {{ .ReadingTime }} min</span>
               </a>
               {{ with .Params.tags }}
-                <div class="flex gap-3 mt-1 ml-2">
+                <div class="flex gap-4 mt-1 ml-2">
                   {{ range first 3 . }}
                     <span class="text-xs text-neutral-400 dark:text-neutral-500">#{{ . }}</span>
                   {{ end }}
