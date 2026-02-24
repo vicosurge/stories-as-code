@@ -1,0 +1,25 @@
+languageCode = "es"
+languageName = "Español"
+weight = 2
+title = "Digimente"
+
+[params]
+  displayName = "Español"
+  isoCode = "es"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/transparent_logo.png"
+  description = "Digimente, una mente en viaje perpetuo."
+
+[params.author]
+  name = "Vicente Manuel Muñoz Milchorena"
+  email = "vicente@milchorena.com"
+  image = "img/vicosurge.jpeg"
+  headline = "Una mente en viaje perpetuo."
+  bio = "Profesional en Ciberseguridad | Escritor y Editor | Amante de las personas"
+  website = "https://vicente.milchorena.com"
+  links = [
+    { linkedin = "https://www.linkedin.com/in/vicente-milchorena/" },
+    { github = "https://github.com/vicosurge" },
+    { website = "https://vicente.milchorena.com" },
+  ]

@@ -1,0 +1,35 @@
+# -- Menú Principal --
+
+[[main]]
+  name = "Historias"
+  pageRef = "stories"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 15
+
+[[main]]
+  name = "Micro"
+  pageRef = "micro"
+  weight = 20
+
+[[main]]
+  name = "Tech"
+  pageRef = "tech"
+  weight = 25
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/vicosurge"
+  weight = 400
+
+
+# -- Menú de Pie de Página --
+
+[[footer]]
+  name = "Etiquetas"
+  pageRef = "tags"
+  weight = 10
