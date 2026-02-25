@@ -1,10 +1,12 @@
 ---
+featureimage: "img/stories/nilith-ur-tramamin.png"
 title: Nilith Ur-Tramamin
 author: Vicente Manuel Munoz Milchorena
 tags: ["español", "metafisica", "filosofia"]
 date: 2013-01-15
 draft: false
 ---
+featureimage: "img/stories/nilith-ur-tramamin.png"
 
 # Nilith Ur-Tramamin
 
@@ -25,6 +27,7 @@ Si es el caso de usarse de esa manera, entonces sus agentes son realmente repres
 Los Monolíticos, entrando en el ambiente metafísico, sería yo, el autor, porque en mi mente ese mundo existe. Todavía no se conoce, y en algunos casos le doy luz para que otros lo puedan presenciar; se encuentra en papel o digital. Su recuerdo no ha sido perdido, pero a la vez se mantiene en un mar de oscuridad donde, si no se le tiene en constante uso, será olvidado como muchos otros mundos y universos. En sí, en ese mundo no intervengo; sé lo que pasa, puedo manipularlo, "predecirlo". Los recuerdos o ideas, aunque más bien estos podrían ser considerados reflejos de un mundo que está en alguna otra parte dentro del Universo que todavía no conocemos. Puede que este sea un mundo "imaginario" para mí, pero realmente exista.
 
 ---
+featureimage: "img/stories/nilith-ur-tramamin.png"
 
 ## Notas
 

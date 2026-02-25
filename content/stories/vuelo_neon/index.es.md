@@ -1,4 +1,5 @@
 ---
+featureimage: "img/stories/vuelo_neon.png"
 title: "Vuelo de Neon"
 author: Vicente Manuel Munoz Milchorena
 keywords: ["neon dystopia", "urban chaos", "vehicular surrealism", "digital angels", "techno escape"]
@@ -8,6 +9,7 @@ date: 2012-01-13
 series: ["The Corporation Battleground"]
 series_order: 3
 ---
+featureimage: "img/stories/vuelo_neon.png"
 Truenos, se escuchan motores a todo volumen de vehículos azul neón surcando 
 por tubos amarillos ficticios que marcaban el principio y el fin de su camino.
 

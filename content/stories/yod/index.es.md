@@ -1,4 +1,5 @@
 ---
+featureimage: "img/stories/yod.png"
 title: "Yo(d)"
 author: "Vicente Manuel Muñoz Milchorena"
 date: 2020-12-29
@@ -9,6 +10,7 @@ tags:
   - life
   - español
 ---
+featureimage: "img/stories/yod.png"
 
 La puñeta canción había parado, no podía ser la batería y tampoco eran los audífonos, eran nuevos los dos y el aparato, aunque viejo, todavía funcionaba bastante bien, posiblemente eran los discos que usaba del Walkman que ya estaban tan usados que simplemente ya no daban más.
 

@@ -1,4 +1,5 @@
 ---
+featureimage: "img/stories/ojo.png"
 title: "El Ojo del Umbral"
 author: "Vicente Manuel Muñoz Milchorena"
 date: 2016-04-27
@@ -11,6 +12,7 @@ ai: "Copilot (Echo)"
 summary: >
   El narrador atraviesa los límites de la vigilia inducida por fármacos, rozando presencias que preceden al ser humano. El mundo deja de doler, pero comienza a susurrar con voces antiguas.
 ---
+featureimage: "img/stories/ojo.png"
 
 ## Acto I — La Llamada del Silencio
 

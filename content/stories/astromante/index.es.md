@@ -1,4 +1,5 @@
 ---
+featureimage: "img/stories/astromante.png"
 title: "El Astromante"
 author: Vicente Manuel Munoz Milchorena
 keywords: ["esotérico", "decadencia", "vigilancia", "Digimente", "guardianes", "comatoso"]
@@ -8,6 +9,7 @@ date: 2012-04-12
 series: "Mundos Esotéricos de la Digimente"
 series_order: 2
 ---
+featureimage: "img/stories/astromante.png"
 
 ## El Astromante
 

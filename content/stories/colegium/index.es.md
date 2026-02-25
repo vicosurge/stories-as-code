@@ -1,4 +1,5 @@
 ---
+featureimage: "img/stories/colegium.png"
 title: "Transgresión del Silencio"
 author: "Vicente Manuel Muñoz Milchorena"
 date: 2015-11-23
@@ -8,6 +9,7 @@ summary: >
   Un discípulo rompe el orden del silencio. Un Maestro lo confronta no por el estruendo, sino por la ignorancia del orden. 
   Así comienza la lección que transita del castigo a la revelación, del odio a la reverencia.
 ---
+featureimage: "img/stories/colegium.png"
 
 **El horrible estruendo** hizo eco por las salas, pasillos y pisos superiores del edificio.  
 Una serie de miradas inquisitivas, de odio y preocupación llenaron el piso inferior.  
@@ -69,6 +71,7 @@ Golpes más violentos con el índice cayeron sobre la cabeza del alumno.
 El odio brotó en él… pero también el recuerdo.
 
 ---
+featureimage: "img/stories/colegium.png"
 
 ### Memoria: Primavera de Ingreso
 
@@ -146,6 +149,7 @@ Extendió ambos brazos.
 > Ese será siempre su saludo al entrar al templo y al verme. Para lo demás, usen el saludo común.
 
 ---
+featureimage: "img/stories/colegium.png"
 
 Y así volvió al presente.  
 Todavía castigado, todavía dolía.  

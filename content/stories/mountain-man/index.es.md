@@ -1,4 +1,5 @@
 ---
+featureimage: "img/stories/mountain-man.png"
 title: "El hombre de la montaña"
 date: 2018-05-28
 author: "Vicente Manuel Muñoz Milchorena"
@@ -20,6 +21,7 @@ tags:
   - simbolismo
 language: "es"
 ---
+featureimage: "img/stories/mountain-man.png"
 
 # El hombre de la montaña
 
