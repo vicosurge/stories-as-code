@@ -8,3 +8,7 @@ date: 2026-02-02
 Ashes of autumn 
 Now held in cold winter's grasp
 Gone to fire's hearth
+
+---
+
+*Rewrite of the [2018 Twitter version](/micro/ashes-original/).*
